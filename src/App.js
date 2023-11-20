@@ -1,10 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {
-  Routes,
-  Route,
-  BrowserRouter as Router,
-} from "react-router-dom";
+
 //import About from './views/About';
 
 //import WorksAnim from './views/WorksAnim';
