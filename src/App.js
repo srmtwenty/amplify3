@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {
+  Routes,
+  Route,
+  BrowserRouter as Router,
+} from "react-router-dom";
 //import About from './views/About';
 
 //import WorksAnim from './views/WorksAnim';
@@ -17,13 +21,13 @@ import './App.css';
 //import Image from './images/concept1a.jpg';
 
 //import Resume from './views/Resume';
-//import Navbar from "./components/navbar";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello, there</p>
-    </div>
+    <Router>
+      <Navbar/>
+    </Router>
   );
 }
 
