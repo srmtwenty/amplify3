@@ -34,10 +34,11 @@ const ResumeCode=(props)=>{
                 
                 <div className="resumeStyle">
                     <h2 style={{paddingBottom: "10px"}}>Choose a resume to view:</h2>
+                    {/*
                     <Link style={{textDecoration: "none"}} class="current" to="/resume_code">Resume (full-stack-developer)</Link> 
 
                     <Link class="currentOff" style={{textDecoration: "none"}} to="/resume_anim">Resume (cg character animator)</Link>
-                    
+                    */}
                     <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer} />
                     
                     {/* <DownloadLink
