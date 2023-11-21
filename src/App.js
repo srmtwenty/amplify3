@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router,
 } from "react-router-dom";
 import About from './views/About';
-
 import WorksAnim from './views/WorksAnim';
 //import WorksCode from './views/WorksCode';
 
@@ -29,6 +28,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<About />}/>
+        <Route path="/works_anim" element={<WorksAnim/>}/>
       </Routes>
       
     </Router>
