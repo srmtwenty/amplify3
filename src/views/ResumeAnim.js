@@ -6,7 +6,8 @@ import '../styles/resumeStyle.css';
 import SinglePagePDFViewer from "../components/single-page";
 
 //import Menu from "../components/Menu";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
+//import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 //import DownloadLink from "react-download-link";
 import Footer from '../components/Footer';
