@@ -5,7 +5,7 @@ import {
   Route,
   BrowserRouter as Router,
 } from "react-router-dom";
-//import About from './views/About';
+import About from './views/About';
 
 //import WorksAnim from './views/WorksAnim';
 //import WorksCode from './views/WorksCode';
@@ -25,7 +25,13 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <p>Test</p>
+    <Router>
+      <Routes>
+        <Route path="/" element={<About />}/>
+      </Routes>
+      
+    </Router>
+    
   );
 }
 
