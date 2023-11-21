@@ -8,11 +8,11 @@ import {Route, Switch} from 'react-router-dom';
 // import profile1a from '../images/profile1a.jpg';
 import bg1da1 from '../images/bg1da1.jpg';
 
-//import '../styles/aboutStyle.css';
+import '../styles/aboutStyle.css';
 
 
 import bg3a2 from '../images/bg3a2.jpg';
-//import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 import HTML from '../images/icons/HTML.png';
 import CSS from '../images/icons/CSS.png';
@@ -262,7 +262,7 @@ const About=()=>{
             
             </div>
             
-            
+            <Footer/>
            
         </div>
     </>
