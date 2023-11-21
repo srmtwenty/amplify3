@@ -29,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<About />}/>
         <Route path="/works_anim" element={<WorksAnim/>}/>
+        <Route path="/works_code" element={<WorksCode/>}/>
       </Routes>
       
     </Router>
