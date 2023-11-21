@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import About from './views/About';
 import WorksAnim from './views/WorksAnim';
-//import WorksCode from './views/WorksCode';
+import WorksCode from './views/WorksCode';
 
 //import ResumeCode from './views/ResumeCode';
 //import ResumeAnim from './views/ResumeAnim';
