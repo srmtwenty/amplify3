@@ -1,6 +1,6 @@
 import React from 'react';
 import {Document, Page, pdfjs} from 'react-pdf';
-import {Link} from '@reach/router';
+//import {Link} from '@reach/router';
 import Resume2021a1 from '../documents/Resume2021a1.pdf';
 import '../styles/resumeStyle.css';
 import SinglePagePDFViewer from "../components/single-page";
@@ -27,9 +27,10 @@ const ResumeAnim=()=>{
     
                 <div className="resumeStyle">
                     <h2 style={{paddingBottom: "10px"}}>Choose a resume to view:</h2>
+                    {/* 
                     <Link className="currentOff" style={{textDecoration: "none"}} to="/resume_code">Resume (full-stack-developer)</Link>
                     <Link style={{textDecoration: "none"}} className="current" to="/resume_anim">Resume (cg character animator)</Link>
-                    {/* <Document file={Resume2021c}>
+                    <Document file={Resume2021c}>
                         <Page pageNumber={1} 
                                 // object-fit="fill"
                                 renderTextLayer={false}
