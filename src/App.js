@@ -10,7 +10,7 @@ import WorksAnim from './views/WorksAnim';
 import WorksCode from './views/WorksCode';
 
 import ResumeCode from './views/ResumeCode';
-import ResumeAnim from './views/ResumeAnim';
+//import ResumeAnim from './views/ResumeAnim';
 
 import React from 'react';
 
@@ -31,7 +31,7 @@ function App() {
         <Route path="/works_anim" element={<WorksAnim/>}/>
         <Route path="/works_code" element={<WorksCode/>}/>
         <Route path="/resume_code" element={<ResumeCode/>}/>
-        <Route path="/resume_anim" element={<ResumeAnim/>}/>
+        
       </Routes>
       
     </Router>
