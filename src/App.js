@@ -30,8 +30,6 @@ function App() {
         <Route path="/" element={<About />}/>
         <Route path="/works_anim" element={<WorksAnim/>}/>
         <Route path="/works_code" element={<WorksCode/>}/>
-        <Route path="/resume_code" element={<ResumeCode/>}/>
-        <Route path="/resume_anim" element={<ResumeAnim/>}/>
         <Route path="/page1" element={<Page1/>}/>
         <Route path="/page2" element={<Page2/>}/>
       </Routes>
