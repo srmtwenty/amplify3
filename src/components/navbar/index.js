@@ -32,6 +32,12 @@ const Navbar = () => {
                     <NavLink to="/resume" activeStyle>
                         Resume
                     </NavLink>
+
+                    <NavLink to="/page1" activeStyle>
+                        Page1
+                    </NavLink>
+
+                    
                     {/* Second Nav */}
                     {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
                 </NavMenu>

@@ -18,10 +18,10 @@ import bg1da1 from '../images/bg1da1.jpg';
 import Scott_Cho_resume_full_stack_developer from '../documents/Scott_Cho_Resume _Full_Stack_2022A.pdf';
 import PDF from '../documents/Untitled document.pdf';
 
-const ResumeCode=(props)=>{
-    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-    // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-    const { pdf } = props;
+const ResumeCode=()=>{
+    //pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+    //const { pdf } = props;
 
     return(
         
@@ -38,13 +38,13 @@ const ResumeCode=(props)=>{
                     <Link style={{textDecoration: "none"}} class="current" to="/resume_code">Resume (full-stack-developer)</Link> 
 
                     <Link class="currentOff" style={{textDecoration: "none"}} to="/resume_anim">Resume (cg character animator)</Link>
-               
+                    <p>Code</p>
                     <SinglePagePDFViewer pdf={PDF} />
                     
                     <a href={Scott_Cho_resume_full_stack_developer} download="Scott_Cho_resume_full_stack_developer">Download Resume(Full Stack Developer)</a>
                 </div>
                 
-                <Footer/>
+            
             
             </div>
         </div>

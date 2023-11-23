@@ -11,16 +11,16 @@ import WorksCode from './views/WorksCode';
 
 import ResumeCode from './views/ResumeCode';
 import ResumeAnim from './views/ResumeAnim';
+import Page1 from './views/Page1';
+import Page2 from './views/Page2';
 
 import React from 'react';
 
 //import Collapsible from './views/Collapsible';
-
-
 //import Image from './images/concept1a.jpg';
-
 //import Resume from './views/Resume';
 import Navbar from "./components/navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,8 +32,10 @@ function App() {
         <Route path="/works_code" element={<WorksCode/>}/>
         <Route path="/resume_code" element={<ResumeCode/>}/>
         <Route path="/resume_anim" element={<ResumeAnim/>}/>
+        <Route path="/page1" element={<Page1/>}/>
+        <Route path="/page2" element={<Page2/>}/>
       </Routes>
-      
+      <Footer/>      
     </Router>
     
   );

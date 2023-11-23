@@ -48,9 +48,8 @@ export default function SinglePage(props){
                     object-fit="fill"
                     renderTextLayer={false}
                     width={900}
-                    height={500}
                     style={resumeStyle}
-                    renderAnnotationLayer={true}
+                    renderAnnotationLayer={false}   
               />
           </Document>
           <div>
