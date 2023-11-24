@@ -113,8 +113,7 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    {/* <p>0:21-0:43 Chasing Dead level clear cutscene (Spring 2016 - 2020 Venture)<br/>
-                                    - worked on cutscene camera/character (in Maya and Unity)</p> */}
+                                    
 
                                     <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:44-1:00</p>
@@ -137,8 +136,6 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    {/* <p>1:01-1:03 Idle cycle animation for a game (Spring 2014)<br/>
-                                    - worked on character animation</p> */}
 
                                     <div style={{display:"flex", border:"red none 2px", width:"550px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:02-1:12</p>

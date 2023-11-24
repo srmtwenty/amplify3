@@ -52,14 +52,14 @@ export default function SinglePage(props){
                     renderAnnotationLayer={false}   
               />
           </Document>
-          <div>
+          <div style={{padding: "10px 0", textAlign:"center"}}>
             <p>
-              Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
+              (Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'})
             </p>
             <button 
               class="button"
               type="button" disabled={pageNumber <= 1} onClick={previousPage}>
-              Previous
+              Previous Page
             </button>
             <button
               class="button"
@@ -67,7 +67,7 @@ export default function SinglePage(props){
               disabled={pageNumber >= numPages}
               onClick={nextPage}
             >
-              Next
+              Next Page
             </button>
           </div>
           

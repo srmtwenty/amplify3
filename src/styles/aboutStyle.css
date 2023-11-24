@@ -1,8 +1,9 @@
-/* *{
-    background-image: url("static/media/bg1da1.e040ad43.jpg");
+*{
+
+    /* background-image: url("static/media/bg1da1.e040ad43.jpg");
+    */
     
-    
-} */
+} 
 
 .profileImg{
     margin-top: 20px;
@@ -21,20 +22,20 @@
     padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
-    border: red none 2px;
-    /* background-color: rgb(213, 238, 250); */
+
+    border: red solid 2px;
+    background-color: rgb(177, 182, 177);
 }
 
 .aboutPageSub{
     border-style: solid;
     background-color: rgba(217, 240, 255, 0.63);
     margin-bottom:50px;
-    /* width: 1000px; */
+    width: 1000px;
     padding-top: 50px;
     
-    /* margin-left:auto;
-    margin-right:auto; */
+    margin-left:auto;
+    margin-right:auto;
     border-radius: 50px;
     
 }
@@ -74,14 +75,15 @@
 
 .aboutStyle{
     display: inline-block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin-top: 20px;
-    width: 800px;
+
+    /*margin-top: 20px;*/
+    margin-left:auto;
+    margin-right:auto;
+    width: 99%;
     margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px 25px 25px 25px;
-    border: black solid 2px;
+    border: green solid 2px;
     padding: 2px;
 }
 
@@ -91,8 +93,10 @@
     /* margin-left: auto;
     margin-right: auto; */
     margin-top: 20px;
-    width: 800px;
+    width: 99%;
     margin-bottom: 50px;
+    margin-left:auto;
+    margin-right:auto;
     /*background-color: rgb(184, 184, 184);*/
     background-image: linear-gradient(to bottom, rgba(184, 184, 184, .8), white);
     border-radius: 25px 25px 25px 25px;
@@ -133,8 +137,10 @@
     font-style: italic;
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     margin-top: 0px;
+    
     /* background-color: gray; */
     /* border-radius: 5px; */
+    text-align:center;
     padding:10px;
     margin-bottom: 0px;
     /* font-weight: 500;
@@ -153,6 +159,7 @@
     /* border-radius: 5px; */
     padding: 10px;
     margin-bottom: 0px;
+    text-align:center;
 }
 
 .content{
