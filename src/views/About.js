@@ -54,6 +54,19 @@ const About=()=>{
         display: "flex", 
         // textAlign: "left",
         border: "red none 2px", 
+        width: "220px",
+        height: "60px",
+        justifyContent: "left",
+        // height: "50px",
+        // marginLeft: "5px",
+        // marginRight: "5px"
+        margin: "5px"
+    }
+    const eachSkill2={
+        color:"white",
+        display: "flex", 
+        // textAlign: "left",
+        border: "red none 2px", 
         width: "230px",
         justifyContent: "left",
         // height: "50px",
@@ -77,13 +90,15 @@ const About=()=>{
                     <Route exact path="/" component={null} />
                 </Switch> */}
                 <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red none 2px", width: "100%", height: "auto"}}>
-                    <div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan none 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
+                    <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between"}}>
                         
-                        <div className="fStyle">
-                            
+                        {/*<div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan none 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
+                        </div>*/}
+                        <div style={{margin: "0 auto"}}>
+                            <h1 style={{fontSize:"5rem", fontWeight:"800px", lineHeight:"1px"}}>Scott Cho</h1>
+                            <h2 style={{margin:"1rem 0px 0px 0px"}}>A Full Stack Developer</h2>
+                            <h2>& A CG Animator</h2>
                         </div>
-                        {/* <img className="profileImg" src={bg3a1} alt="About Picture"/> */}
-                        {/* <p>Ver 1.0</p>   */}
                     </div>
                 </div>
                     
@@ -91,63 +106,63 @@ const About=()=>{
 
                     <div class="aboutPageSub">
                             <div className="aboutStyle">
-                                <h1 class="title">As A Full Stack Developer:</h1>
-                                <div className="content">
+                                <h2 class="title">As A Full Stack Developer:</h2>
+                                <div className="content1">
                                     <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.<br></br>
                                     At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
 
                                 </div>
-                                <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "300px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
+                                <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
                                 <div class="skills">
                                 
                                     <div style={eachSkill}>
                                         <img src={HTML} style={{width:"50px", height:"50px", border:"yellow solid 2px"}}/>
-                                        <h3>HTML</h3>
+                                        <h4>HTML</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={CSS} style={{width:"50px", height:"50px"}}/>
-                                        <h3>CSS</h3>
+                                        <h4>CSS</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Python} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Python</h3>
+                                        <h4>Python</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={JavaScript} style={{width:"50px", height:"50px"}}/>
-                                        <h3>JavaScript</h3>
+                                        <h4>JavaScript</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={MongoDB} style={{width:"50px", height:"50px"}}/>
-                                        <h3>MongoDB</h3>
+                                        <h4>MongoDB</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Mongoose} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Mongoose</h3>
+                                        <h4>Mongoose</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Express} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Express</h3>
+                                        <h4>Express</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={React1} style={{width:"50px", height:"50px"}}/>
-                                        <h3>React</h3>
+                                        <h4>React</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Node} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Node</h3>
+                                        <h4>Node</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Spring} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Spring Tool Suite</h3>
+                                        <h4>Spring Tool Suite</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Java} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Java</h3>
+                                        <h4>Java</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Visual} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Visual Studio Code</h3>
+                                        <h4>Visual Studio Code</h4>
                                     </div>
                                     {/* <div style={eachSkill}>
                                         <img src={Python} style={{width:"50px", height:"50px"}}/>
@@ -155,86 +170,86 @@ const About=()=>{
                                     </div> */}
                                     <div style={eachSkill}>
                                         <img src={SQL} style={{width:"50px", height:"50px"}}/>
-                                        <h3>MySQL</h3>
+                                        <h4>MySQL</h4>
                                     </div>
                                  
                                     <div style={eachSkill}>
                                         <img src={Postman} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Postman</h3>
+                                        <h4>Postman</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Git} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Github</h3>
+                                        <h4>Github</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Api} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Api</h3>
+                                        <h4>Api</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Sailpoint} style={{width:"50px", height:"50px"}}/>
-                                        <h3>SailPoint IIQ(IAM)</h3>
+                                        <h4>SailPoint IIQ(IAM)</h4>
                                     </div>
                                     
                                     <div style={eachSkill}>
                                         <img src={Dbeaver} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Dbeaver</h3>
+                                        <h4>Dbeaver</h4>
                                     </div>
 
                                     <div style={eachSkill}>
                                         <img src={Docker} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Docker</h3>
+                                        <h4>Docker</h4>
                                     </div>
 
                                     <div style={eachSkill}>
                                         <img src={Intellij} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Intellij</h3>
+                                        <h4>Intellij</h4>
                                     </div>
                                 </div>
                             </div>
                         
                             <div className="aboutStyle2">
-                                <h1 class="title2">As An Animator:</h1>
-                                <div className="content">
+                                <h2 class="title2">As An Animator:</h2>
+                                <div className="content1">
                                     <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
 	                                <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 
                                     In 2013, I collaborated with a team on animating characters and camera lay-out in three collaborative projects: Borderlands 2, Junior Giants 2014, and Scaredy Bat.<br></br>
                                     I worked in development of 'Chasing Dead' game from Oct 2014 to May 2016 for the indie game company '2020 Venture Studios'.  In May 2019, I worked for Tim Everitt Productions' to animate dinosaur shots in 90 min cg animated film "Lone Pup" as a freelancer.
                                     </p>
                                 </div>
-                                <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "300px", borderBottomStyle:"solid", textAlign: "center"}}>Skills</h2>
+                                <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", borderBottomStyle:"solid", textAlign: "center"}}>Skills</h2>
                                 <div class="skills2">
                                     
                                     <div style={eachSkill}>
                                         <img src={Maya} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Maya</h3>
+                                        <h4>Maya</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Photo} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Photoshop CS</h3>
+                                        <h4>Photoshop CS</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={CSS} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Premiere Pro</h3>
+                                        <h4>Premiere Pro</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Motion} style={{width:"50px", height:"50px"}}/>
-                                        <h3>MotionBuilder</h3>
+                                        <h4>MotionBuilder</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Unity} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Unity</h3>
+                                        <h4>Unity</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={AEffect} style={{width:"50px", height:"50px"}}/>
-                                        <h3>After Effect</h3>
+                                        <h4>After Effect</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Illustrator} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Illustrator CS</h3>
+                                        <h4>Illustrator CS</h4>
                                     </div>
                                     <div style={eachSkill}>
                                         <img src={Audacity} style={{width:"50px", height:"50px"}}/>
-                                        <h3>Audacity</h3>
+                                        <h4>Audacity</h4>
                                     </div>
                                 </div>
                             </div>

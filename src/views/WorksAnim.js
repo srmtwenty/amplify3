@@ -29,6 +29,8 @@ const WorksAnim=(props)=>{
         marginRight: "auto",
         // marginTop: "10px",
     }
+
+   
     
     const images1=[
         {url: "static/media/environ1b.763bdcc0860ffc6c0c9d.jpg"},
@@ -55,12 +57,12 @@ const WorksAnim=(props)=>{
             <div class="worksAnimPage">
                 
                 <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px", border:"black solid 2px"}}>
-                    <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
+                    <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
                     <ReactPlayer style={playerStyle}
-                        url="http://vimeo.com/547818607"
+                        url="http://vimeo.com/547818607" controls
                     />
                     <div class="inside">
-                        <button onClick={(e)=>{togglePanel(e)}} className='header'>
+                        <button onClick={(e)=>{togglePanel(e)}} style={{margin: "7px"}}>
                             Click for details</button>
                             {open ? (
                             
@@ -215,16 +217,16 @@ const WorksAnim=(props)=>{
 
                 </div>
                 <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px"}}>
-                    <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box (Thesis Project)</h2>
+                    <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box (Thesis Project)</h2>
                     <ReactPlayer style={playerStyle}
-                        url="https://vimeo.com/80035295"
+                        url="https://vimeo.com/80035295" controls
                     />            
                 </div>
 
                 <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "645px", borderRadius:"10px"}}>
-                    <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box - Animatic</h2>
+                    <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box - Animatic</h2>
                     <ReactPlayer style={playerStyle}
-                        url="http://vimeo.com/39552619"
+                        url="http://vimeo.com/39552619" controls
                     />         
                 </div>
 
@@ -244,7 +246,7 @@ const WorksAnim=(props)=>{
                 </div> */}
                 <div class="conceptA">
                     <div className="container">
-                        <h2>Cookie Box - Concept Art</h2>
+                        <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box - Concept Art</h2>
                         {/* <p>(click on bullets on bottom right of a screen)</p> */}
                     </div>
                     <SimpleImageSlider
@@ -260,7 +262,7 @@ const WorksAnim=(props)=>{
                     />
                 </div>
             </div>  
-                <Footer/>
+             
             </div>
             </div>
               

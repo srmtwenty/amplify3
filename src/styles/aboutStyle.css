@@ -28,15 +28,15 @@
 }
 
 .aboutPageSub{
-    border-style: solid;
-    background-color: rgba(217, 240, 255, 0.63);
+    /*border-style: solid;
+    background-color: rgba(217, 240, 255, 0.63);*/
     margin-bottom:50px;
     width: 1000px;
     padding-top: 50px;
     
     margin-left:auto;
     margin-right:auto;
-    border-radius: 50px;
+    border-radius: 25px;
     
 }
 
@@ -82,9 +82,10 @@
     width: 99%;
     margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
-    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 10px;
     border: green solid 2px;
-    padding: 2px;
+    padding: 10px;
 }
 
 
@@ -99,9 +100,9 @@
     margin-right:auto;
     /*background-color: rgb(184, 184, 184);*/
     background-image: linear-gradient(to bottom, rgba(184, 184, 184, .8), white);
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 10px;
     border: black solid 2px;
-    padding: 2px;
+    padding: 10px;
 }
 
 /* .h2_skills{
@@ -134,7 +135,7 @@
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     /* background-color: white; */
     border: red none 2px;
-    font-style: italic;
+    font-style: bold;
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
     margin-top: 0px;
     
@@ -150,7 +151,7 @@
 .title2{
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     background-color: rgb(184, 184, 184);
-    font-style: italic;
+    font-style: bold;
     margin-top: 0px;
     /* border: white solid 2px; */
     border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
@@ -162,17 +163,30 @@
     text-align:center;
 }
 
-.content{
+.content1{
     /* padding:0px; */
     /* background-color: orange; */
     background-image: linear-gradient(to bottom, rgb(255, 255, 100, .7), rgb(251, 251, 174, .7));
     border: black solid 2px;
     border-radius:0px 0px 5px 5px;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 0 0 15px #ccc;
     /* margin-left: auto;
     margin-right: auto; */
     /* width: 800px; */
 }
 
+.content2{
+    /* padding:0px; */
+    /* background-color: orange; */
+    background-image: linear-gradient(to bottom, rgb(255, 255, 100, .7), rgb(251, 251, 174, .7));
+    border: black solid 2px;
+    border-radius:0px 0px 5px 5px;
+   
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 800px; */
+}
 
 .content p{
     margin: 10px;
