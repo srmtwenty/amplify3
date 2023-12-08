@@ -7,7 +7,8 @@ import {Route, Switch} from 'react-router-dom';
 // import bg1da from '../images/bg1da.jpg';
 // import profile1a from '../images/profile1a.jpg';
 import bg1da1 from '../images/bg1da1.jpg';
-
+import aboutPic1 from '../images/IMG_0335a1.jpg';
+import aboutPic2 from '../images/IMG_2377b.jpg';
 import '../styles/aboutStyle.css';
 
 
@@ -77,7 +78,7 @@ const About=()=>{
     }
 
     return(
-        <>
+     
         <div style={{backgroundColor: "rgba(238, 238, 238)", width: "100%"}}>
         {/* <div style={{backgroundImage: `url(${File_001a})`, width: "1900px"}}> */}
             
@@ -89,15 +90,15 @@ const About=()=>{
                     <Route exact path="/dashboard" component={null} />
                     <Route exact path="/" component={null} />
                 </Switch> */}
-                <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "70px", border: "red none 2px", width: "100%", height: "auto"}}>
+                <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "20px", border: "red none 2px", width: "100%", height: "auto"}}>
                     <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between"}}>
                         
                         {/*<div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan none 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
                         </div>*/}
-                        <div style={{margin: "0 auto"}}>
-                            <h1 style={{fontSize:"5rem", fontWeight:"800px", lineHeight:"1px"}}>Scott Cho</h1>
+                        <div style={{margin:"0,auto"}}>
+                            <h1 style={{fontSize:"5rem", fontWeight:"800px", letterSpacing:"-.025em", lineHeight:"1px"}}>Scott Cho</h1>
                             <h2 style={{margin:"1rem 0px 0px 0px"}}>A Full Stack Developer</h2>
-                            <h2>& A CG Animator</h2>
+                            <h2 style={{margin:"0px"}}>& A CG Animator</h2>
                         </div>
                     </div>
                 </div>
@@ -105,14 +106,18 @@ const About=()=>{
                 <div class="aboutPage">
 
                     <div class="aboutPageSub">
-                            <div className="aboutStyle">
-                                <h2 class="title">As A Full Stack Developer:</h2>
+                        <div className="aboutStyle">
+                            
+                            <h2 class="title">As A Full Stack Developer:</h2>
+                            <div style={{display: "inline-flex", justifyContent:"center"}}>
                                 <div className="content1">
                                     <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.<br></br>
                                     At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
 
                                 </div>
+                                <img src={aboutPic1} style={{width:"400px", height:"400px"}}/>
+                            </div>
                                 <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
                                 <div class="skills">
                                 
@@ -205,17 +210,21 @@ const About=()=>{
                                         <h4>Intellij</h4>
                                     </div>
                                 </div>
-                            </div>
+                        </div>    
                         
                             <div className="aboutStyle2">
-                                <h2 class="title2">As An Animator:</h2>
-                                <div className="content1">
-                                    <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
-	                                <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 
-                                    In 2013, I collaborated with a team on animating characters and camera lay-out in three collaborative projects: Borderlands 2, Junior Giants 2014, and Scaredy Bat.<br></br>
-                                    I worked in development of 'Chasing Dead' game from Oct 2014 to May 2016 for the indie game company '2020 Venture Studios'.  In May 2019, I worked for Tim Everitt Productions' to animate dinosaur shots in 90 min cg animated film "Lone Pup" as a freelancer.
-                                    </p>
+                                <h2 class="title">As An Animator:</h2>
+                                <div style={{display: "inline-flex", justifyContent:"center"}}>
+                                    <img src={aboutPic2} style={{width:"400px", height:"400px"}}/>
+                                    <div className="content1">
+                                        <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
+                                        <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 
+                                        In 2013, I collaborated with a team on animating characters and camera lay-out in three collaborative projects: Borderlands 2, Junior Giants 2014, and Scaredy Bat.<br></br>
+                                        I worked in development of 'Chasing Dead' game from Oct 2014 to May 2016 for the indie game company '2020 Venture Studios'.  In May 2019, I worked for Tim Everitt Productions' to animate dinosaur shots in 90 min cg animated film "Lone Pup" as a freelancer.
+                                        </p>
+                                    </div>
                                 </div>
+
                                 <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", borderBottomStyle:"solid", textAlign: "center"}}>Skills</h2>
                                 <div class="skills2">
                                     
@@ -258,9 +267,8 @@ const About=()=>{
             
             </div>
            
-        </div>
-    </>
+     
+        </div>                                
     )
 }
-
 export default About;
