@@ -90,12 +90,12 @@ const About=()=>{
                     <Route exact path="/dashboard" component={null} />
                     <Route exact path="/" component={null} />
                 </Switch> */}
-                <div style={{textAlign: "left", display: "block", maxHeight: "35%", paddingBottom: "20px", border: "red none 2px", width: "100%", height: "auto"}}>
+                <div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", paddingBottom: "20px", border: "red none 2px", width: "100%", height: "auto"}}>
                     <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between"}}>
                         
                         {/*<div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan none 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
                         </div>*/}
-                        <div style={{margin:"0,auto"}}>
+                        <div style={{margin:"auto"}}>
                             <h1 style={{fontSize:"5rem", fontWeight:"800px", letterSpacing:"-.025em", lineHeight:"1px"}}>Scott Cho</h1>
                             <h2 style={{margin:"1rem 0px 0px 0px"}}>A Full Stack Developer</h2>
                             <h2 style={{margin:"0px"}}>& A CG Animator</h2>
@@ -116,7 +116,7 @@ const About=()=>{
                                     At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
 
                                 </div>
-                                <img src={aboutPic1} style={{width:"400px", height:"400px"}}/>
+                                <img src={aboutPic1} style={{width:"400px", height:"400px", paddingLeft:"10px"}}/>
                             </div>
                                 <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
                                 <div class="skills">
@@ -215,7 +215,7 @@ const About=()=>{
                             <div className="aboutStyle2">
                                 <h2 class="title">As An Animator:</h2>
                                 <div style={{display: "inline-flex", justifyContent:"center"}}>
-                                    <img src={aboutPic2} style={{width:"400px", height:"400px"}}/>
+                                    <img src={aboutPic2} style={{width:"400px", height:"400px", paddingRight:"10px"}}/>
                                     <div className="content1">
                                         <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
                                         <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 

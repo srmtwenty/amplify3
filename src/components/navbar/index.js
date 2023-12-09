@@ -20,16 +20,14 @@ const Navbar = () => {
                         About
                     </NavLink>
                     <NavLink to="/works_anim" activeStyle>
-                        WorksAnim
+                        Works(Animation)
                     </NavLink>
                     <NavLink to="/works_code" activeStyle>
-                        WorksCode
+                        Works(Coding)
                     </NavLink>
-
                     <NavLink to="/resume_code" activeStyle>
                         Resume
                     </NavLink>
-
                     
                     {/* Second Nav */}
                     {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
