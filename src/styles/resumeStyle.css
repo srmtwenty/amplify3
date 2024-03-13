@@ -48,14 +48,14 @@
   
   .resumeStyle .current{
     background-color: white;
-    padding: 1em 1em 1em 1em;
+    padding: .5em .5em 1em .5em;
     border-radius: 15px 15px 0px 0px;
     
   }
 
   .resumeStyle .currentOff{
     background-color: rgb(144, 144, 144);
-    padding: 1em 1em 1em 1em;
+    padding: .5em .5em 1em .5em;
     border-radius: 15px 15px 0px 0px;
     color: white;
   }
