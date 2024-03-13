@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Document, Page, pdfjs} from 'react-pdf';
 import '../styles/resumeButton.css';
+import {useWindowWidth} from '@wojtekmaj/react-hooks';
 
 export default function SinglePage(props){
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -36,18 +37,18 @@ export default function SinglePage(props){
           backgroundColor:"red",
           border:"10px solid blue"
       }
-
+      const width=useWindowWidth();
       return (
         <>
           <Document
               file={pdf}
-              //options={{ workerSrc: "/pdf.worker.js" }}
               onLoadSuccess={onDocumentLoadSuccess}
           >
               <Page pageNumber={pageNumber} 
                     object-fit="fill"
                     renderTextLayer={false}
-                    width={900}
+                    width={Math.min(width * 0.5, 900)}
+                    margin="auto"
                     style={resumeStyle}
                     renderAnnotationLayer={false}   
               />

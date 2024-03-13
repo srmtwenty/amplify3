@@ -11,7 +11,6 @@ import aboutPic1 from '../images/IMG_0335a1.jpg';
 import aboutPic2 from '../images/IMG_2377b.jpg';
 import '../styles/aboutStyle.css';
 
-
 import bg3a2 from '../images/bg3a2.jpg';
 import Footer from '../components/Footer';
 
@@ -74,7 +73,6 @@ const About=()=>{
         // marginLeft: "5px",
         // marginRight: "5px"
         margin: "5px"
-
     }
 
     return(
@@ -85,11 +83,6 @@ const About=()=>{
             <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", width: "100%", display: "block"}}>
                 {/* <div style={{backgroundImage: `url(${bg1da1})`, marginLeft:"auto", marginRight: "auto"}}> */}
                 
-                {/* <Switch>
-                    <Route exact path="/settings" component={null} />
-                    <Route exact path="/dashboard" component={null} />
-                    <Route exact path="/" component={null} />
-                </Switch> */}
                 <div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", paddingBottom: "20px", border: "red none 2px", width: "100%", height: "auto"}}>
                     <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between"}}>
                         
@@ -114,9 +107,9 @@ const About=()=>{
                                     <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.<br></br>
                                     At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
-
+                                    
                                 </div>
-                                <img src={aboutPic1} style={{width:"400px", height:"400px", paddingLeft:"10px"}}/>
+                                <img src={aboutPic1} style={{width:"30%", height:"30%", paddingLeft:"10px"}}/>
                             </div>
                                 <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
                                 <div class="skills">
@@ -215,7 +208,7 @@ const About=()=>{
                             <div className="aboutStyle2">
                                 <h2 class="title">As An Animator:</h2>
                                 <div style={{display: "inline-flex", justifyContent:"center"}}>
-                                    <img src={aboutPic2} style={{width:"400px", height:"400px", paddingRight:"10px"}}/>
+                                    <img src={aboutPic2} style={{width:"30%", height:"30%", paddingRight:"10px"}}/>
                                     <div className="content1">
                                         <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
                                         <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 

@@ -9,12 +9,8 @@ const Footer=()=>{
     return(
         <footer>
             <div class="footerStyle">
-                <h1>Scott Cho 2.1</h1>
+                <h1>Scott Cho 2.2</h1>
                 <div class="wrap">
-                    {/* <ul>
-                        <li>Contact: 541-255-5401</li>
-                        <li>Email: srmcho81.rd@gmail.com</li>
-                    </ul> */}
                     <div style={{textAlign: "center"}}>
                         <h3 style={{marginBottom:"0px"}}>Contact: 541-255-5401</h3>
                         <h3 style={{marginTop:"0px"}}>Email: srmcho81.rd@gmail.com</h3>

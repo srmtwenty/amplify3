@@ -2,9 +2,8 @@ import React, {useState} from 'react';
 //import Menu from '../components/Menu';
 import {Link, Route, Switch} from 'react-router-dom';
 import SimpleImageSlider from 'react-simple-image-slider';
-
 import 'react-slideshow-image/dist/styles.css'
-
+import { useResizeObserver } from '@wojtekmaj/react-hooks';
 
 import Footer from '../components/Footer';
 import project2a from '../images/project2a.png';
@@ -95,17 +94,14 @@ export default(props)=>{
         
             
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
-             
-                
-            
-                <div style={{width: "1000px", height: "auto" ,marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px", border: "red none 2px"}}>
+                <div style={{width: "70%", height: "auto" ,marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px", border: "red none 2px"}}>
                     
                     <div style={{textAlign: "center"}}>
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
                             <div>
                                 <div style={{backgroundColor: "yellow", borderTop:"2px solid black"}}>
-                                    <h2>Amplifire Heroes (Java, 2022)</h2>
+                                    <h2>Amplifire Heroes -(Java, 2022)</h2>
                                 </div>
                                 
                                 <ul style={{textAlign: "center", listStylePosition: "inside"}}>
@@ -117,7 +113,7 @@ export default(props)=>{
                                     </a></li>
                                 </ul>
 
-                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
                                         </li>
@@ -150,7 +146,7 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/revature_project1">
                                     Github
                                 </a>
-                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Utilized Docker to create and run Postgres containers to use it as an api database.
                                         </li>
@@ -187,7 +183,7 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
                                     Github
                                 </a>
-                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
                                         </li>
@@ -219,7 +215,7 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
                                     Github
                                 </a>
-                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete functionality for a seamless and intuitive user experience
                                         </li>
@@ -251,7 +247,7 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
                                     Github
                                 </a>
-                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Implemented React component forms with VS Code and MongoDB for secure login and registration
                                         </li>
@@ -284,7 +280,7 @@ export default(props)=>{
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
                                     GitHub
                                 </a>
-                                <div style={{width: "900px", margin:"auto", border: "red none 2px"}}>
+                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                     <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
                                     </li>
@@ -295,6 +291,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             </div>
+                            <div style={{border:"solid red"}}>
                             <SimpleImageSlider
                                 width={900}
                                 height={504}
@@ -304,11 +301,12 @@ export default(props)=>{
                                 showNavs={true}
                                 showBullets={true}
                             />   
+                            </div>
                         </div>
                     
                     </div>
                 </div>
-            <Footer/>
+
             </div>
           </>
 

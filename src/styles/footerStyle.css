@@ -4,6 +4,7 @@ footer{
     border: black none 2px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 25px;
 }
 
 .footerStyle{
@@ -13,7 +14,7 @@ footer{
     /*justify-content: center;*/
     /* text-align: center; */
     
-    width: 1000px;
+    width: 100%;
 }
 
 .footerStyle h1{

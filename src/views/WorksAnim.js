@@ -264,7 +264,7 @@ const WorksAnim=(props)=>{
             </div>  
              
             </div>
-            </div>
+        </div>
               
     
     )
