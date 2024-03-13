@@ -7,7 +7,7 @@ import Scott_Cho_resume_full_stack_developer from '../documents/Scott_Cho_Resume
 function Page1(){
     return(
         <>
-            <div style={{backgroundColor: "rgb(223, 243, 255)", marginLeft:"auto", marginRight:"auto", width: "70%"}}>
+            <div style={{backgroundColor: "rgb(223, 243, 255)", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
                 <div className="resumeStyle">
                     <h3 style={{textAlign: "center", paddingBottom: "10px"}}>*Choose a resume to view:</h3>
                     <div>
