@@ -10,8 +10,8 @@ function Page1(){
             <div style={{backgroundColor: "rgb(223, 243, 255)", marginLeft:"auto", marginRight:"auto", width: "70%"}}>
                 <div className="resumeStyle">
                     <h3 style={{textAlign: "center", paddingBottom: "10px"}}>*Choose a resume to view:</h3>
-                    <Link style={{fontSize:"16px", textDecoration: "none"}} class="current" to="/resume_code">Resume(full stack developer)</Link> 
-                    <Link class="currentOff" style={{fontSize:"16px", textDecoration: "none"}} to="/resume_anim">Resume(cg animator)</Link>
+                    <Link style={{fontSize:"16px", textDecoration: "none"}} class="current" to="/resume_code">Full Stack Developer</Link> 
+                    <Link class="currentOff" style={{fontSize:"16px", textDecoration: "none"}} to="/resume_anim">CG Animator</Link>
                     
                     <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer}/>
 

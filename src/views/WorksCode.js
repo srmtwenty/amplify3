@@ -100,7 +100,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
                             <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black"}}>
+                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                     <h2>Amplifire Heroes -(Java, 2022)</h2>
                                 </div>
                                 
@@ -140,7 +140,7 @@ export default(props)=>{
 
                         <div style={{padding: "0px 0px 20px 0px"}}>
                             <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black"}}>
+                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                     <h2>Car Dealer Ship - Web API(Java, 2022)</h2>
                                 </div>
                                 <a href="https://github.com/srmtwenty/revature_project1">
@@ -177,7 +177,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 20px 0px"}}>
                             <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black"}}>
+                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                     <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
                                 </div>
                                 <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
@@ -209,7 +209,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "0px 0px 20px 0px"}}>
                             <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black"}}>
+                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                     <h2>Friendbook - A clone of Facebook's social media app(Java, 2020)</h2>
                                 </div>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
@@ -241,7 +241,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "0px 0px 20px 0px"}}>
                             <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black"}}>
+                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                     <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
                                 </div>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
@@ -274,7 +274,7 @@ export default(props)=>{
 
                         <div style={{padding: "0px 0px 20px 0px"}}>
                             <div>
-                                <div style={{backgroundColor: "yellow", border:"2px solid black"}}>
+                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                     <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
                                 </div>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
