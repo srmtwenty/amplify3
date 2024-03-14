@@ -99,11 +99,11 @@ export default(props)=>{
                     <div style={{textAlign: "center"}}>
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
-                            <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                    <h2>Amplifire Heroes -(Java, 2022)</h2>
-                                </div>
-                                
+                            
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Amplifire Heroes -(Java, 2022)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
                                 <ul style={{textAlign: "center", listStylePosition: "inside"}}>
                                     <li><a href="https://github.com/srmtwenty/revature_project2_ui">
                                         Github (UI)
@@ -113,7 +113,7 @@ export default(props)=>{
                                     </a></li>
                                 </ul>
 
-                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
+                                <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
                                         </li>
@@ -125,28 +125,36 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
+                            
+                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                    <SimpleImageSlider
+                                        width="100%"
+                                        height="100%"
+                                        images={images6}
+                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                        top:0,
+                                        left:0,
+                                        width: "100%",
+                                        height: "100%"}}
+                                        navStyle={1}
+                                        showNavs={true}
+                                        showBullets={true}
+                                        bgColor="black"
+                                    />
+                                </div>
                             </div>
-                            <SimpleImageSlider
-                                width={900}
-                                height={700}
-                                images={images6}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                                navStyle={1}
-                                showNavs={true}
-                                showBullets={true}
-                            />
                         </div>
 
 
                         <div style={{padding: "0px 0px 20px 0px"}}>
-                            <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                    <h2>Car Dealer Ship - Web API(Java, 2022)</h2>
-                                </div>
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Car Dealer Ship - Web API(Java, 2022)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/revature_project1">
                                     Github
                                 </a>
-                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
+                                <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Utilized Docker to create and run Postgres containers to use it as an api database.
                                         </li>
@@ -159,31 +167,38 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
+                            
+                            <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                <SimpleImageSlider
+                                    width="100%"
+                                    height="100%"
+                                    images={images5}
+                                    style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                    top:0,
+                                    left:0,
+                                    width: "100%",
+                                    height: "100%"}}
+                                    navStyle={1}
+                                    showNavs={true}
+                                    showBullets={true}
+                                    bgColor="black"
+                                />
                             </div>
-                            <SimpleImageSlider
-                                width={900}
-                                height={700}
-                                images={images5}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                                navStyle={1}
-                                showNavs={true}
-                                showBullets={true}
-                            />
+                        </div>
                         </div>
 
 
 
-
-
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 20px 0px"}}>
-                            <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                    <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
-                                </div>
+                            
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
                                     Github
                                 </a>
-                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
+                                <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
                                         </li>
@@ -194,28 +209,36 @@ export default(props)=>{
                                         <li>Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
                                         </li>
                                     </ul>
+                                
+                                </div>
+                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                    <SimpleImageSlider
+                                        width="100%"
+                                        height="100%"
+                                        images={images4}
+                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                        top:0,
+                                        left:0,
+                                        width: "100%",
+                                        height: "100%"}}
+                                        navStyle={1}
+                                        showNavs={true}
+                                        showBullets={true}
+                                        bgColor="black"
+                                    />
                                 </div>
                             </div>
-                            <SimpleImageSlider
-                                width={900}
-                                height={700}
-                                images={images4}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                                navStyle={1}
-                                showNavs={true}
-                                showBullets={true}
-                            />
                         </div>
 
                         <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "0px 0px 20px 0px"}}>
-                            <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                    <h2>Friendbook - A clone of Facebook's social media app(Java, 2020)</h2>
-                                </div>
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Friendbook - A clone of Facebook's social media app(Java, 2020)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
                                     Github
                                 </a>
-                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
+                                <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete functionality for a seamless and intuitive user experience
                                         </li>
@@ -227,27 +250,35 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
+                            
+                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                    <SimpleImageSlider
+                                        width="100%"
+                                        height="100%"
+                                        images={images3}
+                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                        top:0,
+                                        left:0,
+                                        width: "100%",
+                                        height: "100%"}}
+                                        navStyle={1}
+                                        showNavs={true}
+                                        showBullets={true}
+                                        bgColor="black"
+                                    />
+                                </div>
                             </div>
-                            <SimpleImageSlider
-                                width={900}
-                                height={700}
-                                images={images3}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                                navStyle={1}
-                                showNavs={true}
-                                showBullets={true}
-                            />
                         </div>
 
                         <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "0px 0px 20px 0px"}}>
-                            <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                    <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
-                                </div>
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
                                     Github
                                 </a>
-                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
+                                <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>Implemented React component forms with VS Code and MongoDB for secure login and registration
                                         </li>
@@ -259,53 +290,23 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <SimpleImageSlider
-                                width={900}
-                                height={700}
-                                images={images2}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
-                                navStyle={1}
-                                showNavs={true}
-                                showBullets={true}
-                            />
-                        </div>
-
-
-                        <div style={{padding: "0px 0px 20px 0px"}}>
-                            <div>
-                                <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                    <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
-                                </div>
-                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
-                                    GitHub
-                                </a>
-                                <div style={{width: "75%", margin:"auto", border: "red none 2px"}}>
-                                    <ul style={{margin: "20px", textAlign:"left"}}>
-                                    <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
-                                    </li>
-                                    <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
-                                    </li> 
-                                    <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
-                                    </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div style={{border:"solid red"}}>
-                            <SimpleImageSlider
-                                width="100%"
-                                height="100%"
-                                images={images3}
-                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",position:"absolute",
+                            
+                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                    <SimpleImageSlider
+                                        width="100%"
+                                        height="100%"
+                                        images={images2}
+                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
                                         top:0,
                                         left:0,
                                         width: "100%",
-                                        height: "100%"
-                                        }}
-                                navStyle={1}
-                                showNavs={true}
-                                showBullets={true}
-                            />   
+                                        height: "100%"}}
+                                        navStyle={1}
+                                        showNavs={true}
+                                        showBullets={true}
+                                        bgColor="black"
+                                    />
+                                </div>
                             </div>
                         </div>
 
@@ -313,7 +314,7 @@ export default(props)=>{
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"75%", border:"none yellow 2px",textAlign:"center"}}>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                             
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
                                     GitHub
@@ -326,33 +327,32 @@ export default(props)=>{
                                         </li> 
                                         <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
                                         </li>
-                                        </ul>
+                                    </ul>
                                 </div>
                        
-                            <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
-                                <SimpleImageSlider
-                                    width="100%"
-                                    height="100%"
-                                    images={images1}
-                                    style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
-                                    top:0,
-                                    left:0,
-                                    width: "100%",
-                                    height: "100%"}}
-                                    navStyle={1}
-                                    showNavs={true}
-                                    showBullets={true}
-                                    bgColor="black"
-                                    // onClickNav = {(toRight) => { }}
-                                />
-                            </div>
-                        </div>   
+                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                    <SimpleImageSlider
+                                        width="100%"
+                                        height="100%"
+                                        images={images1}
+                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                        top:0,
+                                        left:0,
+                                        width: "100%",
+                                        height: "100%"}}
+                                        navStyle={1}
+                                        showNavs={true}
+                                        showBullets={true}
+                                        bgColor="black"
+                                        // onClickNav = {(toRight) => { }}
+                                    />
+                                </div>
+                            </div>   
                         </div>
 
 
                     </div>
                 </div>
-
             </div>
           </>
 
