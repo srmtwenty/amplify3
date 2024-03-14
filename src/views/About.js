@@ -48,6 +48,7 @@ import Sailpoint from '../images/icons/sailpoint.png';
 import Dbeaver from '../images/icons/dbeaver.png';
 import Docker from '../images/icons/docker.png';
 import Intellij from '../images/icons/intellij.png';
+import Postgres from '../images/icons/postgresql.png';
 
 const About=()=>{
     const eachSkill={
@@ -107,7 +108,7 @@ const About=()=>{
                                     <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                     <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.<br></br>
                                     At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
-                                    
+
                                 </div>
                                 <img src={aboutPic1} style={{width:"30%", height:"30%", paddingLeft:"10px"}}/>
                             </div>
@@ -184,9 +185,10 @@ const About=()=>{
                                         <h4>Api</h4>
                                     </div>
                                     <div style={eachSkill}>
-                                        <img src={Sailpoint} style={{width:"50px", height:"50px"}}/>
-                                        <h4>SailPoint IIQ(IAM)</h4>
+                                        <img src={Postgres} style={{width:"50px", height:"50px"}}/>
+                                        <h4>PostgreSQL</h4>
                                     </div>
+                                    
                                     
                                     <div style={eachSkill}>
                                         <img src={Dbeaver} style={{width:"50px", height:"50px"}}/>
