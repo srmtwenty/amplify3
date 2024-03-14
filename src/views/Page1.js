@@ -11,8 +11,8 @@ function Page1(){
                 <div className="resumeStyle">
                     <h3 style={{textAlign: "center", paddingBottom: "10px"}}>*Choose a resume to view:</h3>
                     <div>
-                        <Link style={{fontSize:"16px", textDecoration: "none"}} class="current" to="/resume_code">Full Stack Developer</Link> 
-                        <Link class="currentOff" style={{fontSize:"16px", textDecoration: "none"}} to="/resume_anim">CG Animator</Link>
+                        <Link style={{fontSize:"16px", textDecoration: "none"}} className="current" to="/resume_code">Full Stack Developer</Link> 
+                        <Link className="currentOff" style={{fontSize:"16px", textDecoration: "none"}} to="/resume_anim">CG Animator</Link>
                     </div>
                     <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer}/>
 

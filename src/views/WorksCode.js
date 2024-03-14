@@ -230,7 +230,7 @@ export default(props)=>{
                             </div>
                             <SimpleImageSlider
                                 width={900}
-                                height={504}
+                                height={700}
                                 images={images3}
                                 style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
                                 navStyle={1}
@@ -262,7 +262,7 @@ export default(props)=>{
                             </div>
                             <SimpleImageSlider
                                 width={900}
-                                height={504}
+                                height={700}
                                 images={images2}
                                 style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",marginLeft:"auto", marginRight:"auto"}}
                                 navStyle={1}
@@ -293,17 +293,63 @@ export default(props)=>{
                             </div>
                             <div style={{border:"solid red"}}>
                             <SimpleImageSlider
-                                width={900}
-                                height={504}
-                                images={images1}
-                                style={{border: "black outset 2px", marginTop:"20px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
+                                width="100%"
+                                height="100%"
+                                images={images3}
+                                style={{border: "black outset 1px", marginTop:"20px", marginBottom:"40px",position:"absolute",
+                                        top:0,
+                                        left:0,
+                                        width: "100%",
+                                        height: "100%"
+                                        }}
                                 navStyle={1}
                                 showNavs={true}
                                 showBullets={true}
                             />   
                             </div>
                         </div>
-                    
+
+                        <div style={{padding: "0px 0px 20px 0px"}}>
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"75%", border:"none yellow 2px",textAlign:"center"}}>
+                            
+                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
+                                    GitHub
+                                </a>
+                                <div style={{margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
+                                        </li>
+                                        <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
+                                        </li> 
+                                        <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
+                                        </li>
+                                        </ul>
+                                </div>
+                       
+                            <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                <SimpleImageSlider
+                                    width="100%"
+                                    height="100%"
+                                    images={images1}
+                                    style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                    top:0,
+                                    left:0,
+                                    width: "100%",
+                                    height: "100%"}}
+                                    navStyle={1}
+                                    showNavs={true}
+                                    showBullets={true}
+                                    bgColor="black"
+                                    // onClickNav = {(toRight) => { }}
+                                />
+                            </div>
+                        </div>   
+                        </div>
+
+
                     </div>
                 </div>
 

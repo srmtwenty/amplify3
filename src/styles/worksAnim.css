@@ -14,29 +14,24 @@
 .conceptA{
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
+    width: 85%;
     border: yellow none 2px;
     background: gray;
-    border-radius: 15px 15px 15px 15px;
-    padding-bottom: 1px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    margin-top:20px;
+    text-align:center;
 }
 
-/* .conceptA .container{
-    border: red solid 2px;
-    background-color:white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    border-radius: 15px 15px 0px 0px;
-} */
+
 
 .conceptA h2{
     border: black none 2px;
-    width: 750px;
+
     margin-top: 0px;
     margin-bottom: 0px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;

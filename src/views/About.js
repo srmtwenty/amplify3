@@ -97,12 +97,12 @@ const About=()=>{
                     </div>
                 </div>
                     
-                <div class="aboutPage">
+                <div className="aboutPage">
 
-                    <div class="aboutPageSub">
+                    <div className="aboutPageSub">
                         <div className="aboutStyle">
                             
-                            <h2 class="title">As A Full Stack Developer:</h2>
+                            <h2 className="title">As A Full Stack Developer:</h2>
                             <div style={{display: "inline-flex", justifyContent:"center"}}>
                                 <div className="content1">
                                     <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
@@ -113,7 +113,7 @@ const About=()=>{
                                 <img src={aboutPic1} style={{width:"30%", height:"30%", paddingLeft:"10px"}}/>
                             </div>
                                 <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
-                                <div class="skills">
+                                <div className="skills">
                                 
                                     <div style={eachSkill}>
                                         <img src={HTML} style={{width:"50px", height:"50px", border:"yellow solid 2px"}}/>
@@ -208,7 +208,7 @@ const About=()=>{
                         </div>    
                         
                             <div className="aboutStyle2">
-                                <h2 class="title">As An Animator:</h2>
+                                <h2 className="title">As An Animator:</h2>
                                 <div style={{display: "inline-flex", justifyContent:"center"}}>
                                     <img src={aboutPic2} style={{width:"30%", height:"30%", paddingRight:"10px"}}/>
                                     <div className="content1">
@@ -221,7 +221,7 @@ const About=()=>{
                                 </div>
 
                                 <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", borderBottomStyle:"solid", textAlign: "center"}}>Skills</h2>
-                                <div class="skills2">
+                                <div className="skills2">
                                     
                                     <div style={eachSkill}>
                                         <img src={Maya} style={{width:"50px", height:"50px"}}/>

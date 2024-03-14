@@ -54,9 +54,9 @@ const WorksAnim=(props)=>{
             
           
             
-            <div class="worksAnimPage">
+            <div className="worksAnimPage">
                 
-                <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", marginLeft:"auto", marginRight:"auto", width: "70%", borderRadius:"10px", border:"black solid 2px"}}>
+                <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", marginLeft:"auto", marginRight:"auto", width: "75%", borderRadius:"10px", border:"black solid 2px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"56.25%"}}>
                         <ReactPlayer style={playerStyle}
@@ -84,8 +84,6 @@ const WorksAnim=(props)=>{
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <p>0:04-0:06 Borderlands2 shot 1 (Fall 2013)<br/>
-                                    - worked on layout and character animation</p> */}
 
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:06-0:10</p>
@@ -96,9 +94,6 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    {/* <p>0:06-0:10 Borderlands2 shot 2 (Fall 2013)<br/>
-                                    - worked on layout and character animation</p> */}
-
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:10-0:20</p>
                                         <div>
@@ -107,9 +102,6 @@ const WorksAnim=(props)=>{
                                             </div>
                                         </div>
                                     </div>
-
-                                    {/* <p>0:10-0:20 CG animated commercial (Fall 2018 - iMediaBay)<br/>
-                                    - worked on layout, storyboard and camera/character animation</p> */}
 
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>0:21-0:43</p>
@@ -129,9 +121,6 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    {/* <p>0:44-1:00 Idle cycle animation for a game (Spring 2014)<br/>
-                                    - worked on character animation</p> */}
-
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:00-1:02</p>
                                         <div>
@@ -140,7 +129,6 @@ const WorksAnim=(props)=>{
                                             </div>
                                         </div>
                                     </div>
-
 
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:02-1:12</p>
@@ -151,9 +139,6 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    {/* <p>1:03-1:12 Three strike - cycle animation (Spring 2019)<br/>
-                                    - worked on character animation</p> */}
-
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:12-1:28</p>
                                         <div>
@@ -163,9 +148,6 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    {/* <p>1:12-1:28 Is there a way I can borrow a car? (Spring 2018)<br/>
-                                    - worked on character animation</p> */}
-
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:28-1:39</p>
                                         <div>
@@ -174,9 +156,6 @@ const WorksAnim=(props)=>{
                                             </div>
                                         </div>
                                     </div>
-
-                                    {/* <p>1:28-1:39 Scaredy Bat (Spring 2014 - Directed by Greg Perkins)<br/>
-                                    - worked on character animation</p> */}
 
                                     <div style={{display:"flex", border:"red none 2px", marginBottom:"5px"}}>
                                         <p style={{border:'red none 2px', width: "100px", textAlign:"left", marginTop:"0px"}}>1:39-1:51</p>
@@ -205,7 +184,6 @@ const WorksAnim=(props)=>{
                                         </div>
                                     </div>
 
-                                    
                                 </div>
                             </div>
                             ) : null}
@@ -215,7 +193,7 @@ const WorksAnim=(props)=>{
 
 
 
-                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "70%", borderRadius:"10px"}}>
+                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "75%", borderRadius:"10px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box (Thesis Project)</h2>
                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"56.25%"}}>
                         <ReactPlayer style={playerStyle}
@@ -227,11 +205,12 @@ const WorksAnim=(props)=>{
                     </div>          
                 </div>
 
-                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "70%", borderRadius:"10px"}}>
+                <div style={{marginTop: "20px", marginBottom: "50px", paddingBottom: "25px", textAlign: "center", backgroundColor: "gray", marginLeft:"auto", marginRight:"auto", width: "75%", borderRadius:"10px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box - Animatic</h2>
                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"56.25%"}}>
                         <ReactPlayer style={playerStyle}
-                            url="http://vimeo.com/39552619" controls
+                            url="http://vimeo.com/39552619" 
+                            controls
                             width="100%"
                             height="100%"
                         />         
@@ -252,22 +231,30 @@ const WorksAnim=(props)=>{
                             </div>
                         </div>    
                 </div> */}
-                <div class="conceptA">
+               
+                <div className="conceptA">
                     <div className="container">
-                        <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Cookie Box - Concept Art</h2>
-                        {/* <p>(click on bullets on bottom right of a screen)</p> */}
+                        <h2 style={{textAlign:"center",  margin: "0px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>
+                            Cookie Box - Concept Art
+                        </h2>
                     </div>
-                    <SimpleImageSlider
-                        width={720}
-                        height={500}
-                        images={images1}
-                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px", marginLeft:"auto", marginRight:"auto"}}
-                        navStyle={1}
-                        showNavs={true}
-                        showBullets={true}
-                        bgColor="black"
-                        // onClickNav = {(toRight) => { }}
-                    />
+                    <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                        <SimpleImageSlider
+                            width="100%"
+                            height="100%"
+                            images={images1}
+                            style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                            top:0,
+                            left:0,
+                            width: "100%",
+                            height: "100%"}}
+                            navStyle={1}
+                            showNavs={true}
+                            showBullets={true}
+                            bgColor="black"
+                            // onClickNav = {(toRight) => { }}
+                        />
+                    </div>
                 </div>
 
                 </div>
