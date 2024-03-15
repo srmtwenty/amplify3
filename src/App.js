@@ -16,13 +16,16 @@ import React from 'react';
 //import Collapsible from './views/Collapsible';
 //import Image from './images/concept1a.jpg';
 //import Resume from './views/Resume';
-import Navbar from "./components/navbar";
+//import Navbar from "./components/navbar";
 import Footer from "./components/Footer";
+import Navbar from './components/navbar/Navbar';
+
 
 function App() {
   return (
     <Router>
       <Navbar/>
+    
       <Routes>
         <Route path="/" element={<About />}/>
         <Route path="/works_anim" element={<WorksAnim/>}/>

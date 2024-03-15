@@ -49,6 +49,7 @@ import Dbeaver from '../images/icons/dbeaver.png';
 import Docker from '../images/icons/docker.png';
 import Intellij from '../images/icons/intellij.png';
 import Postgres from '../images/icons/postgresql.png';
+import HomepageTitle from '../images/homepage_title2024a.jpg';
 
 const About=()=>{
     const eachSkill={
@@ -89,10 +90,18 @@ const About=()=>{
                         
                         {/*<div style={{backgroundImage: `url(${bg3a2})`, marginTop: "20px",paddingBottom: "260px", margin: "0 auto", maxWidth: "900px", height: "auto", border: "cyan none 2px", backgroundRepeat:"no-repeat", backgroundSize:"contain"}}>
                         </div>*/}
-                        <div style={{margin:"auto"}}>
-                            <h1 style={{fontSize:"5rem", fontWeight:"800px", letterSpacing:"-.025em", lineHeight:"1px"}}>Scott Cho</h1>
-                            <h2 style={{margin:"1rem 0px 0px 0px"}}>A Full Stack Developer</h2>
-                            <h2 style={{margin:"0px"}}>& A CG Animator</h2>
+                        <div style={{margin:"auto", border:"solid black", width:"60%"}}>
+
+                            <img src={HomepageTitle} style={{width:"100%"}}/>
+                            {/*<h1 style={{fontSize:"8rem", fontWeight:"800px", letterSpacing:"-.025em", lineHeight:"1px"}}>Scott Cho</h1>
+                            <div style={{display:"flex"}}>
+                                
+                                
+                                <h2 style={{margin:"1rem 0px 0px 0px"}}>A Full Stack Developer</h2>
+                                <h2 style={{margin:"0px"}}>& A CG Animator</h2>
+                               
+                            </div>
+                             */}
                         </div>
                     </div>
                 </div>
