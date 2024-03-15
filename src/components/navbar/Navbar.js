@@ -32,9 +32,6 @@ const Navbar = () => {
             <li>
               <NavLink to="/resume_code" activeStyle>Resume</NavLink>
             </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
           </ul>
         </div>
       </div>

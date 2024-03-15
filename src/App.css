@@ -1,7 +1,7 @@
 .App {
   opacity: 1;
   transition: opacity 5s;
-  
+  background-color: white;
   text-align: center;
 }
 
