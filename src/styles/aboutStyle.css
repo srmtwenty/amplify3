@@ -1,7 +1,4 @@
-*{
-    /* background-image: url("static/media/bg1da1.e040ad43.jpg");
-    */
-} 
+
 
 .profileImg{
     margin-top: 20px;
@@ -12,27 +9,14 @@
     /* border: red solid 4px; */
 }
 
-.aboutPage{
-    /* background-image: linear-gradient(to bottom, rgb(1, 175, 255, 0), rgb(1, 175, 255, 1)); */
-    /* background-image: linear-gradient(to bottom, rgb(236, 255, 233, 0), rgb(236, 255, 233, 1)); */
-    padding-top: 10px;
-    
-    padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-
-    /*border: red solid 2px;
-    background-color: rgb(177, 182, 177);*/
-}
-
 .aboutPageSub{
     /*border-style: solid;
     background-color: rgba(217, 240, 255, 0.63);*/
     margin-bottom:50px;
-    width: 70%;
-    padding-top: 50px;
+    width:95%;
     margin-left:auto;
     margin-right:auto;
+    border:none black 1px;
     border-radius: 25px;
 }
 
@@ -70,29 +54,22 @@
 
 
 .aboutStyle{
-    display: inline-block;
-
-    /*margin-top: 20px;*/
-    margin-left:auto;
-    margin-right:auto;
-    width: 99%;
+    width: 90%;
     margin-bottom: 50px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 15px #ccc;
+    margin-left:"auto";
+    margin-right:"auto";
     border-radius: 10px;
-    border: green solid 2px;
-    padding: 10px;
+    border: black solid 2px;
+    padding:10px;
 }
 
 
 .aboutStyle2{
-    display: inline-block;
-
     margin-top: 20px;
-    width: 99%;
-    margin-bottom: 50px;
-    margin-left:auto;
-    margin-right:auto;
+    width: 90%;
+    margin: "auto";
+    
     /*background-color: rgb(184, 184, 184);*/
     background-image: linear-gradient(to bottom, rgba(184, 184, 184, .8), white);
     border-radius: 10px;
@@ -212,4 +189,15 @@
     border-radius: 0px 0px 20px 20px;
     /* margin:0px; */
     /* width: 100%; */
+}
+
+.contain1{
+    background-color: "rgba(255, 255, 255, 0.7)"; 
+    border: "yellow solid 2px"; 
+    margin-left:"auto"; 
+    margin-right:"auto"; 
+    padding-top:"20px"; 
+    min-width:"400px";
+    max-Width: "94%"; 
+    display: "block";
 }

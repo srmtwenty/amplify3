@@ -32,7 +32,7 @@ function App() {
     onRest:()=>setFlip(!flip),
   })
   return (
-    <div className='App'>
+    <div>
       {/*
       <animated.div style={props}>*/}
           <Router>
