@@ -47,7 +47,7 @@ export default function SinglePage(props){
               <Page pageNumber={pageNumber} 
                     object-fit="fill"
                     renderTextLayer={false}
-                    width={Math.min(width * 0.5, 900)}
+                    width={Math.min(width * 0.9, 900)}
                     margin="auto"
                     style={resumeStyle}
                     renderAnnotationLayer={false}   
