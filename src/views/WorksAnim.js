@@ -40,21 +40,18 @@ const WorksAnim=(props)=>{
     ];
 
     return(
-        <div>
+        <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", width:"100%"}}>
  
-        {/* <div style={{backgroundImage: `url(${File_001a})`}}> */}
             <div style={{
-                width: '100%',
-                backgroundColor: "rgba(255, 255, 255, 0.7)",
-                border: "red sold 2px",
+                backgroundColor: "rgb(205, 243, 241)",
+                border: "red solid 2px",
                 marginLeft:"auto",
                 marginRight:"auto",
+                minWidth:"400px",
+                maxWidth: "70%", 
+                display: "block"
                 // backgroundImage: `url(${File_001a})`,  
                 }}>
-            
-          
-            
-            <div className="worksAnimPage">
                 
                 <div style={{marginTop: "20px", marginBottom: "50px", padding: "0px", textAlign: "center", marginLeft:"auto", marginRight:"auto", width: "75%", borderRadius:"10px", border:"black solid 2px"}}>
                     <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
@@ -257,8 +254,8 @@ const WorksAnim=(props)=>{
                     </div>
                 </div>
 
-                </div>
-            </div>    
+            </div>
+            
         </div>
     )
 }
