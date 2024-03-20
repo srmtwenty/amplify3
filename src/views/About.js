@@ -10,6 +10,7 @@ import bg1da1 from '../images/bg1da1.jpg';
 import aboutPic1 from '../images/IMG_0335a1.jpg';
 import aboutPic2 from '../images/IMG_2377b.jpg';
 import '../styles/aboutStyle.css';
+import ReactPlayer from 'react-player';
 
 import bg3a2 from '../images/bg3a2.jpg';
 import Footer from '../components/Footer';
@@ -50,7 +51,7 @@ import Docker from '../images/icons/docker.png';
 import Intellij from '../images/icons/intellij.png';
 import Postgres from '../images/icons/postgresql.png';
 import HomepageTitle from '../images/homepage_title2024a.jpg';
-
+import RPG5a from '../images/rpg_api5a.jpg';
 const About=()=>{
     const eachSkill={
         display: "flex", 
@@ -101,6 +102,16 @@ const About=()=>{
         marginTop: "50px",
         marginBottom:"50px"
     }
+
+    const playerStyle={
+        position:"absolute",
+        top:0,
+        left:0,
+        width: "100%",
+        height: "100%",
+        //marginLeft: "auto",
+        //marginRight: "auto"
+    }
     return(
      
         <div style={{backgroundColor: "rgba(238, 238, 238)", width:"100%"}}>
@@ -109,7 +120,7 @@ const About=()=>{
 
        
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
-                        <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between"}}>
+                        <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between", paddingBottom:"20px"}}>
                             
                             
 
@@ -118,8 +129,34 @@ const About=()=>{
                          
                         </div>
                     {/*</div>*/}
-                    
-
+                        
+                        <div style={{border:"blue solid 2px", paddingTop:"20px", margin:"auto", width:"80%"}}>
+                            <div style={{margin:"auto"}}>
+                                <h2 style={{margin:"auto"}}>Current Project I am working on:</h2>
+                            
+                                <div>
+                                    <ul>
+                                    <li>Full Stack Web Application with Api and RPG Game</li>
+                                    <li>You can create your own character.</li>
+                                    <li>You can purchase and equip various weapons and armors.</li>
+                                    <li>Last but not least, you can fight against various monsters around the world!</li>
+                                </ul>
+                                </div>
+                           
+                            <div style={{margin:"auto", padding:"10px, 0, 0, 10px, 0"}}>
+                                <img src={RPG5a} style={{width:"100%"}}/>
+                                {/*}
+                                <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                            <ReactPlayer style={playerStyle}
+                                                url="https://vimeo.com/925275553" 
+                                                controls
+                                                width="100%"
+                                                height="100%"
+                                            />
+    </div>*/}
+                            </div>
+                            </div>
+                        </div>
                     
                         <div className="aboutPageSub">
                             <div style={aboutStyle1a}>

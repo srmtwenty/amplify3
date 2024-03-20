@@ -57,7 +57,7 @@ const WorksAnim=(props)=>{
                     <h2 style={{textAlign:"center",  margin: "0px", padding: "5px", backgroundColor:"white", borderBottomStyle: "solid", borderRadius:"10px 10px 0px 0px"}}>Demo Reel</h2>
                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"56.25%"}}>
                         <ReactPlayer style={playerStyle}
-                            url="http://vimeo.com/547818607" 
+                            url="https://vimeo.com/925275553" 
                             controls
                             width="100%"
                             height="100%"

@@ -4,6 +4,7 @@ import {Link, Route, Switch} from 'react-router-dom';
 import SimpleImageSlider from 'react-simple-image-slider';
 import 'react-slideshow-image/dist/styles.css'
 import { useResizeObserver } from '@wojtekmaj/react-hooks';
+import ReactPlayer from 'react-player';
 
 import Footer from '../components/Footer';
 import project2a from '../images/project2a.png';
@@ -40,10 +41,37 @@ import project5c from '../images/project5c.png';
 import project6a from '../images/project6a.png';
 import project6b from '../images/project6b.png';
 
-
+import Project7a from '../images/project7a.jpg';
+import project7b from '../images/project7b.jpg';
+import project7c from '../images/project7c.jpg';
+import project7d from '../images/project7d.jpg';
+import project7e from '../images/project7e.jpg';
+import project7f from '../images/project7f.jpg';
+import project7g from '../images/project7g.jpg';
+import project7h from '../images/project7h.jpg';
+import project7i from '../images/project7i.jpg';
 
 export default(props)=>{
-    
+    const images7=[
+        {url:"static/media/project7a.37f80b779760ee5d5ff5.jpg"},
+       {url:"static/media/project7b.2cefc492cf7208fdc326.jpg"},
+       {url:"static/media/project7c.d4bbbef879c40d3c9f27.jpg"},
+       {url:"static/media/project7d.f66b66a7fdf218051116.jpg"},
+       {url:"static/media/project7e.6d05d81b647a70991021.jpg"},
+       {url:"static/media/project7f.c67e8958a4fd47d1ff9b.jpg"},
+       {url:"static/media/project7g.1f19f717b7c623dd33f2.jpg"},
+       {url:"static/media/project7h.8c48731f20390226a129.jpg"},
+
+        {url:"static/media/project7i.074fb37d9a99c1596768.jpg"},
+        
+        
+        
+        
+        
+        
+        
+       
+    ]
 
     const images6=[
         {url: "static/media/project6a.5b5e0614ddc75e63f367.png"},
@@ -87,7 +115,15 @@ export default(props)=>{
         {url: "static/media/project3b5.3e8fe3db48ba9a4e43f2.png"},
     ];
     
-
+    const playerStyle={
+        position:"absolute",
+        top:0,
+        left:0,
+        width: "100%",
+        height: "100%",
+        //marginLeft: "auto",
+        //marginRight: "auto"
+    }
     return(
         <>
         {/* <div style={{backgroundImage: `url(${project5a})`}}> */}
@@ -98,10 +134,83 @@ export default(props)=>{
                     
                     <div style={{textAlign: "center"}}>
 
+                    <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
+                            
+                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Athlete Database - A database of Athletes records - Version 2(Java && React JS, 2024)</h2>
+                            </div>
+                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
+                                <ul style={{textAlign: "center", listStylePosition: "inside"}}>
+                                    <li><a href="https://github.com/srmtwenty/revature_project2_ui">
+                                        Github (UI)
+                                    </a></li>
+                                    <li><a href="https://github.com/srmtwenty/revature_project2_backend">
+                                        Github (Backend)
+                                    </a></li>
+                                </ul>
+
+                                <div style={{margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>
+                                            Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>
+                                            Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+
+                                        </li>
+
+                                        <li>
+                                            Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
+                                        </li>
+
+                                        <li>
+                                            Utilized Docker to create and run Postgres containers to use it as an API database.
+                                        </li>
+                                    </ul>
+                                </div>
+                               
+                                <h3>Screenshots</h3>
+                                <div style={{paddingBottom:"20px"}}>
+                                    <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                        
+                                        <SimpleImageSlider
+                                            width="100%"
+                                            height="100%"
+                                            images={images7}
+                                            style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                            top:0,
+                                            left:0,
+                                            width: "100%",
+                                            height: "100%"}}
+                                            navStyle={1}
+                                            showNavs={true}
+                                            showBullets={true}
+                                            bgColor="black"
+                                        />
+                                    </div>
+                                </div>
+
+                                <h3>Video</h3>
+                                <div style={{margin:"auto", padding:"10px, 0, 0, 10px, 0"}}>
+                                    <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                        <ReactPlayer style={playerStyle}
+                                            url="https://vimeo.com/925275553" 
+                                            controls
+                                            width="100%"
+                                            height="100%"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
                             
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Amplifire Heroes -(Java, 2022)</h2>
+                                <h2>Amplifire Heroes -(Java & React JS, 2022)</h2>
                             </div>
                             <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
                                 <ul style={{textAlign: "center", listStylePosition: "inside"}}>
@@ -125,7 +234,7 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
-                            
+                                <h3>Screenshots</h3>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -188,7 +297,6 @@ export default(props)=>{
                         </div>
 
 
-
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 20px 0px"}}>
                             
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
@@ -211,6 +319,8 @@ export default(props)=>{
                                     </ul>
                                 
                                 </div>
+
+                                <h3>Screenshots</h3>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -291,6 +401,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
+                                <h3>Screenshots</h3>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -330,6 +441,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                        
+                                <h3>Screenshots</h3>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
