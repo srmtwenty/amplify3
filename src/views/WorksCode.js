@@ -126,7 +126,12 @@ export default(props)=>{
         marginRight:"auto",
         marginTop:"10px",
         marginBottom:"10px",
+        padding:"1px"
+    }
 
+    const video={
+        margin:"auto", 
+        padding:"10px, 0, 20px, 0"
     }
 
     return(
@@ -139,7 +144,7 @@ export default(props)=>{
                     
                     <div style={{textAlign: "center"}}>
 
-                    <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
+                    <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 50px 0px"}}>
                             
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Athlete Database - A database of Athletes records - Version 2(Java && React JS, 2024)</h2>
@@ -177,7 +182,8 @@ export default(props)=>{
                                
                                 <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{paddingBottom:"20px"}}>
-                                    <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                    <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
                                         
                                         <SimpleImageSlider
                                             width="100%"
@@ -195,24 +201,29 @@ export default(props)=>{
                                         />
                                     </div>
                                 </div>
-
-                                <h3>Video</h3>
-                                <div style={{margin:"auto", padding:"10px, 0, 0, 10px, 0"}}>
-                                    <div style={{position:"relative", paddingTop:"56.25%"}}>
-                                        <ReactPlayer style={playerStyle}
-                                            url="https://vimeo.com/925266680"
-                                            controls
-                                            width="100%"
-                                            height="100%"
-                                        />
-                                    </div>
                                 </div>
+
+                                <div style={subTitle}><h3>Video</h3></div>
+                                  
+                                        <div style={{backgroundColor:"black", padding:"5px"}}>
+
+                                        
+                                            <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                                <ReactPlayer style={playerStyle}
+                                                    url="https://vimeo.com/925266680"
+                                                    controls
+                                                    width="100%"
+                                                    height="100%"
+                                                />
+                                            </div>
+                                        </div>
+                                   
                             </div>
                         </div>
 
 
 
-                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 50px 0px"}}>
                             
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Amplifire Heroes -(Java & React JS, 2022)</h2>
@@ -240,27 +251,30 @@ export default(props)=>{
                                     </ul>
                                 </div>
                                 <div style={subTitle}><h3>Screenshots</h3></div>
-                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
-                                    <SimpleImageSlider
-                                        width="100%"
-                                        height="100%"
-                                        images={images6}
-                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
-                                        top:0,
-                                        left:0,
-                                        width: "100%",
-                                        height: "100%"}}
-                                        navStyle={1}
-                                        showNavs={true}
-                                        showBullets={true}
-                                        bgColor="black"
-                                    />
+
+                                <div style={{backgroundColor:"black", padding:"15px"}}>
+                                    <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                        <SimpleImageSlider
+                                            width="100%"
+                                            height="100%"
+                                            images={images6}
+                                            style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                            top:0,
+                                            left:0,
+                                            width: "100%",
+                                            height: "100%"}}
+                                            navStyle={1}
+                                            showNavs={true}
+                                            showBullets={true}
+                                            bgColor="black"
+                                        />
+                                    </div>
                                 </div>
                             </div>
+                  
                         </div>
 
-
-                        <div style={{padding: "0px 0px 20px 0px"}}>
+                        <div style={{padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Car Dealer Ship - Web API(Java, 2022)</h2>
                             </div>
@@ -282,7 +296,9 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
-                                <div style={subTitle}><h3>Screenshots</h3></div>
+                            <div style={subTitle}><h3>Screenshots</h3></div>
+                           
+                            <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                             <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                 <SimpleImageSlider
                                     width="100%"
@@ -301,9 +317,10 @@ export default(props)=>{
                             </div>
                         </div>
                         </div>
+                   
+                        </div>
 
-
-                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 50px 0px"}}>
                             
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
@@ -327,6 +344,8 @@ export default(props)=>{
                                 </div>
 
                                 <div style={subTitle}><h3>Screenshots</h3></div>
+                                
+                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -343,10 +362,12 @@ export default(props)=>{
                                         bgColor="black"
                                     />
                                 </div>
+                                </div>
                             </div>
+                 
                         </div>
 
-                        <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "0px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Friendbook - A clone of Facebook's social media app(Java, 2020)</h2>
                             </div>
@@ -368,6 +389,8 @@ export default(props)=>{
                                 </div>
                             
                                 <div style={subTitle}><h3>Screenshots</h3></div>
+                      
+                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -384,10 +407,12 @@ export default(props)=>{
                                         bgColor="black"
                                     />
                                 </div>
+                                </div>
                             </div>
+                    
                         </div>
 
-                        <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "0px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
                             </div>
@@ -409,6 +434,8 @@ export default(props)=>{
                                 </div>
                             
                                 <div style={subTitle}><h3>Screenshots</h3></div>
+                   
+                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -425,10 +452,12 @@ export default(props)=>{
                                         bgColor="black"
                                     />
                                 </div>
+                                </div>
                             </div>
+                   
                         </div>
 
-                        <div style={{padding: "0px 0px 20px 0px"}}>
+                        <div style={{padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
                             </div>
@@ -449,6 +478,7 @@ export default(props)=>{
                                 </div>
                        
                                 <div style={subTitle}><h3>Screenshots</h3></div>
+                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -465,6 +495,7 @@ export default(props)=>{
                                         bgColor="black"
                                         // onClickNav = {(toRight) => { }}
                                     />
+                                </div>
                                 </div>
                             </div>   
                         </div>
