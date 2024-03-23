@@ -121,7 +121,7 @@ export default(props)=>{
         border:"solid 1px black",
         backgroundColor:"white",
         borderRadius:"10px",
-        width:"20%",
+        width:"200px",
         marginLeft:"auto",
         marginRight:"auto",
         marginTop:"10px",
