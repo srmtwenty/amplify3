@@ -61,16 +61,8 @@ export default(props)=>{
        {url:"static/media/project7f.c67e8958a4fd47d1ff9b.jpg"},
        {url:"static/media/project7g.1f19f717b7c623dd33f2.jpg"},
        {url:"static/media/project7h.8c48731f20390226a129.jpg"},
-
         {url:"static/media/project7i.074fb37d9a99c1596768.jpg"},
         
-        
-        
-        
-        
-        
-        
-       
     ]
 
     const images6=[
@@ -124,6 +116,19 @@ export default(props)=>{
         //marginLeft: "auto",
         //marginRight: "auto"
     }
+
+    const subTitle={
+        border:"solid 1px black",
+        backgroundColor:"white",
+        borderRadius:"10px",
+        width:"20%",
+        marginLeft:"auto",
+        marginRight:"auto",
+        marginTop:"10px",
+        marginBottom:"10px",
+
+    }
+
     return(
         <>
         {/* <div style={{backgroundImage: `url(${project5a})`}}> */}
@@ -170,7 +175,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                                
-                                <h3>Screenshots</h3>
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{paddingBottom:"20px"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                         
@@ -195,7 +200,7 @@ export default(props)=>{
                                 <div style={{margin:"auto", padding:"10px, 0, 0, 10px, 0"}}>
                                     <div style={{position:"relative", paddingTop:"56.25%"}}>
                                         <ReactPlayer style={playerStyle}
-                                            url="https://vimeo.com/925275553" 
+                                            url="https://vimeo.com/925266680"
                                             controls
                                             width="100%"
                                             height="100%"
@@ -234,7 +239,7 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
-                                <h3>Screenshots</h3>
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -277,6 +282,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                             <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                 <SimpleImageSlider
                                     width="100%"
@@ -320,7 +326,7 @@ export default(props)=>{
                                 
                                 </div>
 
-                                <h3>Screenshots</h3>
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -361,6 +367,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -401,7 +408,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
-                                <h3>Screenshots</h3>
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
@@ -441,7 +448,7 @@ export default(props)=>{
                                     </ul>
                                 </div>
                        
-                                <h3>Screenshots</h3>
+                                <div style={subTitle}><h3>Screenshots</h3></div>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                     <SimpleImageSlider
                                         width="100%"
