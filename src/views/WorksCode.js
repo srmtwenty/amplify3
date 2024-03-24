@@ -151,10 +151,10 @@ export default(props)=>{
                             </div>
                             <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
                                 <ul style={{textAlign: "center", listStylePosition: "inside"}}>
-                                    <li><a href="https://github.com/srmtwenty/revature_project2_ui">
+                                    <li><a href="https://github.com/srmtwenty/artistic2024c_ui">
                                         Github (UI)
                                     </a></li>
-                                    <li><a href="https://github.com/srmtwenty/revature_project2_backend">
+                                    <li><a href="https://github.com/srmtwenty/artistic2024c">
                                         Github (Backend)
                                     </a></li>
                                 </ul>
