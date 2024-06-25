@@ -44,7 +44,7 @@ const WorksAnim=(props)=>{
  
             <div style={{
                 backgroundColor: "rgb(205, 243, 241)",
-                border: "red solid 2px",
+                border: "white solid 1px",
                 marginLeft:"auto",
                 marginRight:"auto",
                 minWidth:"400px",

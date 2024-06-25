@@ -126,7 +126,18 @@ export default(props)=>{
         marginRight:"auto",
         marginTop:"10px",
         marginBottom:"10px",
-        padding:"1px"
+        padding:"2px 1px 2px 1px"
+    }
+    const subTitle2={
+        border:"solid 1px black",
+        backgroundColor:"white",
+        borderRadius:"10px",
+        width:"80%",
+        marginLeft:"auto",
+        marginRight:"auto",
+        marginTop:"10px",
+        marginBottom:"10px",
+        padding:"2px 1px 2px 1px"
     }
 
     const video={
@@ -204,8 +215,8 @@ export default(props)=>{
 
                     <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 50px 0px"}}>
                             
-                            <div  onClick={()=>handleExpand1()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Athlete Database Ver 2 (Java && React JS, 2024)</h2>
+                            <div onClick={()=>handleExpand1()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2 style={subTitle2}>Athlete Database Ver 2 (Java && React JS, 2024)</h2>
                                 <p>Click to expand</p>
                             </div>
 
@@ -243,35 +254,38 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
-                               
-                                <div style={subTitle}><h3>Screenshots</h3></div>
-                                <div style={{paddingBottom:"20px"}}>
-                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
-                                    <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
-                                        
-                                        <SimpleImageSlider
-                                            width="100%"
-                                            height="100%"
-                                            images={images7}
-                                            style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
-                                            top:0,
-                                            left:0,
-                                            width: "100%",
-                                            height: "100%"}}
-                                            navStyle={1}
-                                            showNavs={true}
-                                            showBullets={true}
-                                            bgColor="black"
-                                        />
+                                
+                                <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <div style={{border:"1px solid yellow"}}>
+                                        <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                            <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
+                                            
+                                            <SimpleImageSlider
+                                                width="100%"
+                                                height="100%"
+                                                images={images7}
+                                                style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                                top:0,
+                                                left:0,
+                                                width: "100%",
+                                                height: "100%"}}
+                                                navStyle={1}
+                                                showNavs={true}
+                                                showBullets={true}
+                                                bgColor="black"
+                                            />
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
-                                </div>
+                                
 
-                                <div style={subTitle}><h3>Video</h3></div>
-                                  
-                                        <div style={{backgroundColor:"black", padding:"5px"}}>
+                                <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                    <h3  style={subTitle}>Video</h3>
+                                        <div style={{backgroundColor:"black", border:"2px red solid",padding:"5px"}}>
 
-                                        
+                                            
                                             <div style={{position:"relative", paddingTop:"56.25%"}}>
                                                 <ReactPlayer style={playerStyle}
                                                     url="https://vimeo.com/925266680"
@@ -281,7 +295,7 @@ export default(props)=>{
                                                 />
                                             </div>
                                         </div>
-                                   
+                                </div>   
                             </div>
                                 </>
                                 :<></>
@@ -322,7 +336,9 @@ export default(props)=>{
                                         </li>
                                     </ul>
                                 </div>
-                                <div style={subTitle}><h3>Screenshots</h3></div>
+
+                                <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                <h3 style={subTitle}>Screenshots</h3>
 
                                 <div style={{backgroundColor:"black", padding:"15px"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -342,6 +358,7 @@ export default(props)=>{
                                         />
                                     </div>
                                 </div>
+                                </div>
                             </div>
                             </>
                             :<></>
@@ -352,7 +369,7 @@ export default(props)=>{
                         </div>
 
                         <div style={{padding: "0px 0px 50px 0px"}}>
-                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                            <div onClick={()=>handleExpand3()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Car Dealer Ship - Web API (Java, 2022)</h2>
                                 <p>Click to expand</p>
                             </div>
@@ -378,7 +395,8 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
-                            <div style={subTitle}><h3>Screenshots</h3></div>
+                            <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                            <h3 style={subTitle}>Screenshots</h3>
                            
                             <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                             <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -397,6 +415,7 @@ export default(props)=>{
                                     bgColor="black"
                                 />
                             </div>
+                            </div>
                         </div>
                         </div>
                                 </>
@@ -408,7 +427,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 50px 0px"}}>
                             
-                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                            <div onClick={()=>handleExpand4()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Athlete Database Ver 1 (Java, 2022)</h2>
                                 <p>Click to expand</p>
                             </div>
@@ -433,7 +452,8 @@ export default(props)=>{
                                 
                                 </div>
 
-                                <div style={subTitle}><h3>Screenshots</h3></div>
+                                <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                    <h3 style={subTitle}>Screenshots</h3>
                                 
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -453,6 +473,7 @@ export default(props)=>{
                                     />
                                 </div>
                                 </div>
+                                </div>
                             </div>
                                 </>
                                 :<></>
@@ -464,7 +485,7 @@ export default(props)=>{
 
 
                         <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "0px 0px 50px 0px"}}>
-                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                            <div onClick={()=>handleExpand5()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>Friendbook - A clone of Facebook's social media app (Java, 2020)</h2>
                                 <p>Click to expand</p>
                             </div>
@@ -489,7 +510,8 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
-                                <div style={subTitle}><h3>Screenshots</h3></div>
+                                <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                    <h3 style={subTitle}>Screenshots</h3>
                       
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -509,6 +531,7 @@ export default(props)=>{
                                     />
                                 </div>
                                 </div>
+                                </div>
                             </div>
                                 </>
                                 :<></>
@@ -519,7 +542,7 @@ export default(props)=>{
                         </div>
 
                         <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "0px 0px 50px 0px"}}>
-                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                            <div onClick={()=>handleExpand6()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
                                 <p>Click to expand</p>
                             </div>
@@ -544,7 +567,8 @@ export default(props)=>{
                                     </ul>
                                 </div>
                             
-                                <div style={subTitle}><h3>Screenshots</h3></div>
+                                <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                    <h3 style={subTitle}>Screenshots</h3>
                    
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -564,6 +588,7 @@ export default(props)=>{
                                     />
                                 </div>
                                 </div>
+                                </div>
                             </div>
                                 </>
                                 :<></>
@@ -573,7 +598,7 @@ export default(props)=>{
 
 
 
-                        <div style={{padding: "0px 0px 50px 0px"}}>
+                        <div onClick={()=>handleExpand7()} style={{padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>EasyShop - Simple E-commerce website (Python/Django, 2020)</h2>
                                 <p>Click to expand</p>
@@ -598,7 +623,8 @@ export default(props)=>{
                                         </ul>
                                     </div>
                         
-                                    <div style={subTitle}><h3>Screenshots</h3></div>
+                                    <div style={{border:"1px solid blue", borderRadius:"10px",paddingBottom:"20px"}}>
+                                        <h3 style={subTitle}>Screenshots</h3>
                                     <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                         <SimpleImageSlider
@@ -616,6 +642,7 @@ export default(props)=>{
                                             bgColor="black"
                                             // onClickNav = {(toRight) => { }}
                                         />
+                                    </div>
                                     </div>
                                     </div>
                                 </div>  
