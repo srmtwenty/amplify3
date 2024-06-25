@@ -116,7 +116,7 @@ const About=()=>{
      
         <div style={{backgroundColor: "rgba(238, 238, 238)", width:"100%"}}>
             
-            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", minWidth:"400px",maxWidth: "70%", display: "block"}}>
+            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", minWidth:"400px",maxWidth: "70%", display: "block"}}>
 
        
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
@@ -130,9 +130,12 @@ const About=()=>{
                         </div>
                     {/*</div>*/}
                         
-                        <div style={{border:"blue solid 2px", paddingTop:"20px", margin:"auto", width:"80%"}}>
+                        <div style={{border:"blue solid 2px", borderRadius:"10px", padding:"20px 10px 10px 10px", margin:"auto", width:"80%"}}>
                             <div style={{margin:"auto"}}>
-                                <h2 style={{margin:"auto"}}>Current Project I am working on:</h2>
+                                <div style={{margin:"auto"}}>
+                                    <h2 style={{textAlign:"center"}}>Current Project I am working on:</h2>
+                                </div>
+                                
                             
                                 <div>
                                     <ul>
@@ -143,7 +146,7 @@ const About=()=>{
                                 </ul>
                                 </div>
                            
-                            <div style={{margin:"auto", padding:"10px, 0, 0, 10px, 0"}}>
+                            <div style={{margin:"auto", border:"1px solid", padding:"10px, 0, 0, 10px, 0"}}>
                                 <img src={RPG5a} style={{width:"100%"}}/>
                                 {/*}
                                 <div style={{position:"relative", paddingTop:"56.25%"}}>

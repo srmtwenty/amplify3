@@ -134,6 +134,64 @@ export default(props)=>{
         padding:"10px, 0, 20px, 0"
     }
 
+    const [expandWork1, setExpandWork1]=useState(false)
+    const [expandWork2, setExpandWork2]=useState(false)
+    const [expandWork3, setExpandWork3]=useState(false)
+    const [expandWork4, setExpandWork4]=useState(false)
+    const [expandWork5, setExpandWork5]=useState(false)
+    const [expandWork6, setExpandWork6]=useState(false)
+    const [expandWork7, setExpandWork7]=useState(false)
+
+    const handleExpand1=()=>{
+        if(expandWork1==false){
+            setExpandWork1(true)
+        }else{
+            setExpandWork1(false)
+        }
+    }
+    const handleExpand2=()=>{
+        if(expandWork2==false){
+            setExpandWork2(true)
+        }else{
+            setExpandWork2(false)
+        }
+    }
+    const handleExpand3=()=>{
+        if(expandWork3==false){
+            setExpandWork3(true)
+        }else{
+            setExpandWork3(false)
+        }
+    }
+    const handleExpand4=()=>{
+        if(expandWork4==false){
+            setExpandWork4(true)
+        }else{
+            setExpandWork4(false)
+        }
+    }
+    const handleExpand5=()=>{
+        if(expandWork5==false){
+            setExpandWork5(true)
+        }else{
+            setExpandWork5(false)
+        }
+    }
+    const handleExpand6=()=>{
+        if(expandWork6==false){
+            setExpandWork6(true)
+        }else{
+            setExpandWork6(false)
+        }
+    }
+    const handleExpand7=()=>{
+        if(expandWork7==false){
+            setExpandWork7(true)
+        }else{
+            setExpandWork7(false)
+        }
+    }
+
     return(
         <>
         {/* <div style={{backgroundImage: `url(${project5a})`}}> */}
@@ -146,10 +204,16 @@ export default(props)=>{
 
                     <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 50px 0px"}}>
                             
-                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Athlete Database - A database of Athletes records - Version 2(Java && React JS, 2024)</h2>
+                            <div  onClick={()=>handleExpand1()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Athlete Database Ver 2 (Java && React JS, 2024)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
+
+                            
+                            {
+                                expandWork1?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
                                 <ul style={{textAlign: "center", listStylePosition: "inside"}}>
                                     <li><a href="https://github.com/srmtwenty/artistic2024c_ui">
                                         Github (UI)
@@ -219,17 +283,25 @@ export default(props)=>{
                                         </div>
                                    
                             </div>
+                                </>
+                                :<></>
+                            }
+                            
                         </div>
 
 
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "20px 0px 50px 0px"}}>
                             
-                            <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Amplifire Heroes -(Java & React JS, 2022)</h2>
+                            <div onClick={()=>handleExpand2()} style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
+                                <h2>Amplifire Heroes (Java & React JS, 2022)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
-                                <ul style={{textAlign: "center", listStylePosition: "inside"}}>
+                            {
+                               expandWork2?
+                            <>
+                                <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
+                                <ul style={{display:"",textAlign: "center", listStylePosition: "inside"}}>
                                     <li><a href="https://github.com/srmtwenty/revature_project2_ui">
                                         Github (UI)
                                     </a></li>
@@ -271,14 +343,24 @@ export default(props)=>{
                                     </div>
                                 </div>
                             </div>
+                            </>
+                            :<></>
+                            }
+                            
+                            
                   
                         </div>
 
                         <div style={{padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Car Dealer Ship - Web API(Java, 2022)</h2>
+                                <h2>Car Dealer Ship - Web API (Java, 2022)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+
+                            {
+                                expandWork3?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/revature_project1">
                                     Github
                                 </a>
@@ -317,15 +399,23 @@ export default(props)=>{
                             </div>
                         </div>
                         </div>
-                   
+                                </>
+                                :<></>
+                            }
                         </div>
+
+
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)", padding: "0px 0px 50px 0px"}}>
                             
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Athlete Database - A database of Athletes records(Java, 2022)</h2>
+                                <h2>Athlete Database Ver 1 (Java, 2022)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                            {
+                                expandWork4?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
                                     Github
                                 </a>
@@ -364,14 +454,25 @@ export default(props)=>{
                                 </div>
                                 </div>
                             </div>
+                                </>
+                                :<></>
+                            }
+                            
                  
                         </div>
 
+
+
                         <div style={{backgroundColor: "rgba(255, 249, 214)", padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>Friendbook - A clone of Facebook's social media app(Java, 2020)</h2>
+                                <h2>Friendbook - A clone of Facebook's social media app (Java, 2020)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+
+                            {
+                                expandWork5?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
                                     Github
                                 </a>
@@ -409,14 +510,24 @@ export default(props)=>{
                                 </div>
                                 </div>
                             </div>
+                                </>
+                                :<></>
+                            }
+
+                            
                     
                         </div>
 
                         <div style={{backgroundColor: "rgba(227, 250, 231)", padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
                                 <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+
+                            {
+                                expandWork6?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
                                     Github
                                 </a>
@@ -454,50 +565,64 @@ export default(props)=>{
                                 </div>
                                 </div>
                             </div>
-                   
+                                </>
+                                :<></>
+                            }
+    
                         </div>
+
+
 
                         <div style={{padding: "0px 0px 50px 0px"}}>
                             <div style={{backgroundColor: "yellow", borderTop:"2px solid black", padding:"0 0 10px 0"}}>
-                                <h2>EasyShop - Simple and intuitive E-commerce website(Python/Django, 2020)</h2>
+                                <h2>EasyShop - Simple E-commerce website (Python/Django, 2020)</h2>
+                                <p>Click to expand</p>
                             </div>
-                            <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
-                            
-                                <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
-                                    GitHub
-                                </a>
-                                <div style={{margin:"auto", border: "red none 2px"}}>
-                                    <ul style={{margin: "20px", textAlign:"left"}}>
-                                        <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
-                                        </li>
-                                        <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
-                                        </li> 
-                                        <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
-                                        </li>
-                                    </ul>
-                                </div>
-                       
-                                <div style={subTitle}><h3>Screenshots</h3></div>
-                                <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
-                                <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
-                                    <SimpleImageSlider
-                                        width="100%"
-                                        height="100%"
-                                        images={images1}
-                                        style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
-                                        top:0,
-                                        left:0,
-                                        width: "100%",
-                                        height: "100%"}}
-                                        navStyle={1}
-                                        showNavs={true}
-                                        showBullets={true}
-                                        bgColor="black"
-                                        // onClickNav = {(toRight) => { }}
-                                    />
-                                </div>
-                                </div>
-                            </div>   
+
+                            {
+                                expandWork7?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                                
+                                    <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
+                                        GitHub
+                                    </a>
+                                    <div style={{margin:"auto", border: "red none 2px"}}>
+                                        <ul style={{margin: "20px", textAlign:"left"}}>
+                                            <li>Configured templates in Python/Django cultivating a simplistic UI and shopping experience including viewing, adding, and ordering items.
+                                            </li>
+                                            <li>Implemented Bcrypt's hashing and HTML form validation to enhance security.
+                                            </li> 
+                                            <li>Constructed an intuitive front end design using CSS resulting in a seamless and on-brand user experience”    
+                                            </li>
+                                        </ul>
+                                    </div>
+                        
+                                    <div style={subTitle}><h3>Screenshots</h3></div>
+                                    <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                    <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
+                                        <SimpleImageSlider
+                                            width="100%"
+                                            height="100%"
+                                            images={images1}
+                                            style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                            top:0,
+                                            left:0,
+                                            width: "100%",
+                                            height: "100%"}}
+                                            navStyle={1}
+                                            showNavs={true}
+                                            showBullets={true}
+                                            bgColor="black"
+                                            // onClickNav = {(toRight) => { }}
+                                        />
+                                    </div>
+                                    </div>
+                                </div>  
+                                </>
+                                :<></>
+                            }
+
                         </div>
 
 
