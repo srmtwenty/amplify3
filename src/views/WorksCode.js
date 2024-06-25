@@ -217,7 +217,7 @@ export default(props)=>{
                     <div style={{backgroundColor: "rgba(235, 255, 253)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             
                             <div onClick={()=>handleExpand1()} style={subTitle2}>
-                                <h2>Athlete Database Ver 2 (Java && React JS, 2024)</h2>
+                                <h3>Athlete Database Ver 2 (Java && React JS, 2024)</h3>
                                 <p>Click to expand</p>
                             </div>
 
@@ -257,7 +257,7 @@ export default(props)=>{
                                 </div>
                                 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
-                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <p style={subTitle}>Screenshots</p>
                                     <div style={{border:"1px solid yellow"}}>
                                         <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                             <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
@@ -283,7 +283,7 @@ export default(props)=>{
                                 
 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <h3  style={subTitle}>Video</h3>
+                                    <p style={subTitle}>Video</p>
                                         <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
 
                                             
@@ -309,7 +309,7 @@ export default(props)=>{
                         <div style={{backgroundColor: "rgba(252, 246, 230)",marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             
                             <div onClick={()=>handleExpand2()} style={subTitle2}>
-                                <h2>Amplifire Heroes (Java & React JS, 2022)</h2>
+                                <h3>Amplifire Heroes (Java & React JS, 2022)</h3>
                                 <p>Click to expand</p>
                             </div>
                             {
@@ -339,7 +339,7 @@ export default(props)=>{
                                 </div>
 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                <h3 style={subTitle}>Screenshots</h3>
+                                <p style={subTitle}>Screenshots</p>
 
                                 <div style={{backgroundColor:"black", padding:"15px"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -366,12 +366,11 @@ export default(props)=>{
                             }
                             
                             
-                  
                         </div>
 
                         <div style={{backgroundColor:"rgba(240, 252, 230)",marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             <div onClick={()=>handleExpand3()} style={subTitle2}>
-                                <h2>Car Dealer Ship - Web API (Java, 2022)</h2>
+                                <h3>Car Dealer Ship - Web API (Java, 2022)</h3>
                                 <p>Click to expand</p>
                             </div>
 
@@ -397,7 +396,7 @@ export default(props)=>{
                                 </div>
                             
                             <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                            <h3 style={subTitle}>Screenshots</h3>
+                            <p style={subTitle}>Screenshots</p>
                            
                             <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                             <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -429,7 +428,7 @@ export default(props)=>{
                         <div style={{backgroundColor: "rgba(235, 255, 253)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             
                             <div onClick={()=>handleExpand4()} style={subTitle2}>
-                                <h2>Athlete Database Ver 1 (Java, 2022)</h2>
+                                <h3>Athlete Database Ver 1 (Java, 2022)</h3>
                                 <p>Click to expand</p>
                             </div>
                             {
@@ -454,7 +453,7 @@ export default(props)=>{
                                 </div>
 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <p style={subTitle}>Screenshots</p>
                                 
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -487,7 +486,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor:"rgba(255, 247, 224)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             <div onClick={()=>handleExpand5()} style={subTitle2}>
-                                <h2>Friendbook - A clone of Facebook's social media app (Java, 2020)</h2>
+                                <h3>Friendbook - A clone of Facebook's social media app (Java, 2020)</h3>
                                 <p>Click to expand</p>
                             </div>
 
@@ -512,7 +511,7 @@ export default(props)=>{
                                 </div>
                             
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <p style={subTitle}>Screenshots</p>
                       
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -544,7 +543,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(227, 250, 231)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             <div onClick={()=>handleExpand6()} style={subTitle2}>
-                                <h2>AQI-Maps - Real time air quality map(MERN, 2020)</h2>
+                                <h3>AQI-Maps - Real time air quality map(MERN, 2020)</h3>
                                 <p>Click to expand</p>
                             </div>
 
@@ -569,7 +568,7 @@ export default(props)=>{
                                 </div>
                             
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <p style={subTitle}>Screenshots</p>
                    
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -601,7 +600,7 @@ export default(props)=>{
 
                         <div style={{backgroundColor: "rgba(235, 255, 253)",marginTop:"40px", padding: "20px 0px 20px 0px"}}>
                             <div onClick={()=>handleExpand7()} style={subTitle2}>
-                                <h2>EasyShop - Simple E-commerce website (Python/Django, 2020)</h2>
+                                <h3>EasyShop - Simple E-commerce website (Python/Django, 2020)</h3>
                                 <p>Click to expand</p>
                             </div>
 
@@ -625,7 +624,7 @@ export default(props)=>{
                                     </div>
                         
                                     <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                        <h3 style={subTitle}>Screenshots</h3>
+                                        <p style={subTitle}>Screenshots</p>
                                     <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                         <SimpleImageSlider
@@ -653,8 +652,6 @@ export default(props)=>{
 
                         </div>
 
-
-                   
                 </div>
             </div>
           </>
