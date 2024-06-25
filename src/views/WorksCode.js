@@ -225,7 +225,7 @@ export default(props)=>{
                             {
                                 expandWork1?
                                 <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
                                 <ul style={{textAlign: "center", listStylePosition: "inside"}}>
                                     <li><a href="https://github.com/srmtwenty/artistic2024c_ui">
                                         Github (UI)
@@ -315,7 +315,7 @@ export default(props)=>{
                             {
                                expandWork2?
                             <>
-                                <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>   
+                                <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
                                 <ul style={{display:"",textAlign: "center", listStylePosition: "inside"}}>
                                     <li><a href="https://github.com/srmtwenty/revature_project2_ui">
                                         Github (UI)
@@ -377,7 +377,7 @@ export default(props)=>{
                             {
                                 expandWork3?
                                 <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>
                                 <a href="https://github.com/srmtwenty/revature_project1">
                                     Github
                                 </a>
@@ -434,7 +434,7 @@ export default(props)=>{
                             {
                                 expandWork4?
                                 <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>
                                 <a href="https://github.com/srmtwenty/my_java_project1_athlete_database">
                                     Github
                                 </a>
@@ -493,7 +493,7 @@ export default(props)=>{
                             {
                                 expandWork5?
                                 <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/friendbook-main1">
                                     Github
                                 </a>
@@ -550,7 +550,7 @@ export default(props)=>{
                             {
                                 expandWork6?
                                 <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>
                                 <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/AQI-Maps">
                                     Github
                                 </a>
@@ -607,7 +607,7 @@ export default(props)=>{
                             {
                                 expandWork7?
                                 <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center"}}>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>
                                 
                                     <a href="https://github.com/srmtwenty/CodingDojo-projects/tree/main/EasyShop-master">
                                         GitHub
