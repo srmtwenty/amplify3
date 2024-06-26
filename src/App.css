@@ -1,10 +1,13 @@
+
+/*
 .App {
   opacity: 1;
   transition: opacity 5s;
   background-color: white;
   text-align: center;
-}
+}*/
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,5 +40,19 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+*/
+body{
+  animation:fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
   }
 }

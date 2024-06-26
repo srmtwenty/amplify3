@@ -31,8 +31,11 @@ function App() {
     delay:600,
     onRest:()=>setFlip(!flip),
   })
+
+
+  
   return (
-    <div>
+    <div className="App">
       {/*
       <animated.div style={props}>*/}
           <Router>

@@ -124,11 +124,8 @@ const About=()=>{
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
                         <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between", paddingBottom:"20px"}}>
                             
-                            
-
                             <img src={HomepageTitle} style={{display:"block", minWidth:"200px",maxWidth:"500px", margin:"auto", border:"solid black 1px"}}/>
                                 
-                         
                         </div>
                     {/*</div>*/}
                         
@@ -167,10 +164,10 @@ const About=()=>{
                             <div style={aboutStyle1a}>
 
                                 <h2 className="title">As A Full Stack Developer:</h2>
-                                <img src={aboutPic1} style={{width:"250px", height:"auto", display:"block", margin:"auto", paddingBottom:"10px"}}/>
-                            
-                                <div style={{display: "inline-flex", justifyContent:"center"}}>
                                 
+                            
+                                <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
+                                    <img src={aboutPic1} style={{minWidth:"100px",height:"auto", display:"block", margin:"auto", paddingBottom:"10px"}}/>
                                     <div className="content1">
                                         <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                         <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.</p>
@@ -276,9 +273,9 @@ const About=()=>{
                         
                                 <div style={aboutStyle2a}>
                                     <h2 className="title">As An Animator:</h2>
-                                    <img src={aboutPic2}  style={{width:"250px", height:"auto", display:"block", margin:"auto", paddingBottom:"10px"}}/>
-                                    <div style={{display: "inline-flex", justifyContent:"center"}}>
-                                        
+                                    
+                                    <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
+                                        <img src={aboutPic2} style={{minWidth:"100px",height:"auto", display:"block", margin:"auto", paddingBottom:"10px"}}/>
                                         <div className="content1">
                                             <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
                                             <p>I earned a MFA degree at the Academy of Art University with a major in 3D Character Animation.  <br></br>From 2009 to 2012, I took graduate animation courses focusing on performance, mechanical motion, and was mentored under veteran industry animators. 
