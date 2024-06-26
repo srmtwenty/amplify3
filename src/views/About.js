@@ -81,6 +81,7 @@ const About=()=>{
     const aboutStyle1a={
         marginTop: "20px",
         width: "95%",
+        boxShadow:"0 2px 4px 0",
     /*background-color: rgb(184, 184, 184);*/
         borderRadius: "10px",
         border: "black solid 2px",
@@ -95,6 +96,7 @@ const About=()=>{
     /*background-color: rgb(184, 184, 184);*/
         backgroundImage: "linear-gradient(to bottom, rgba(184, 184, 184, .8), white)",
         borderRadius: "10px",
+        boxShadow:"0 2px 4px 0",
         border: "black solid 2px",
         padding:"10px",
         marginLeft:"auto",
@@ -130,7 +132,7 @@ const About=()=>{
                         </div>
                     {/*</div>*/}
                         
-                        <div style={{border:"blue solid 2px", borderRadius:"10px", padding:"20px 10px 10px 10px", margin:"auto", width:"80%"}}>
+                        <div style={{backgroundColor:"rgba(235, 250, 252)",boxShadow:"0 2px 4px 0",border:"gray solid 1px", borderRadius:"10px", padding:"10px 10px 10px 10px", margin:"auto", width:"80%"}}>
                             <div style={{margin:"auto"}}>
                                 <div style={{margin:"auto"}}>
                                     <h2 style={{textAlign:"center"}}>Current Project I am working on:</h2>

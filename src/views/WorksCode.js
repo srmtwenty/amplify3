@@ -210,7 +210,7 @@ export default(props)=>{
         
             
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
-                <div style={{minWidth:"400px", textAlign: "center",maxWidth: "70%", height: "auto" , display:"block", marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "5px", border: "red none 2px"}}>
+                <div style={{minWidth:"400px", textAlign: "center",maxWidth: "70%", height: "auto" , display:"block", marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "3px", paddingBottom:"10px", border: "red none 2px"}}>
                     
                 
 
