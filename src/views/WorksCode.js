@@ -214,11 +214,11 @@ export default(props)=>{
                     
                 
 
-                    <div style={{backgroundColor: "rgba(235, 255, 253)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                    <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             
                             <div onClick={()=>handleExpand1()} style={subTitle2}>
                                 <h3>Athlete Database Ver 2 (Java && React JS, 2024)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
 
                             
@@ -226,11 +226,11 @@ export default(props)=>{
                                 expandWork1?
                                 <>
                                     <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
-                                <ul style={{textAlign: "center", listStylePosition: "inside"}}>
-                                    <li><a href="https://github.com/srmtwenty/artistic2024c_ui">
+                                <ul style={{display:"inline-block"}}>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c_ui">
                                         Github (UI)
                                     </a></li>
-                                    <li><a href="https://github.com/srmtwenty/artistic2024c">
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c">
                                         Github (Backend)
                                     </a></li>
                                 </ul>
@@ -306,21 +306,21 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor: "rgba(252, 246, 230)",marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(252, 246, 230)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             
                             <div onClick={()=>handleExpand2()} style={subTitle2}>
                                 <h3>Amplifire Heroes (Java & React JS, 2022)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
                             {
                                expandWork2?
                             <>
                                 <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
-                                <ul style={{display:"",textAlign: "center", listStylePosition: "inside"}}>
-                                    <li><a href="https://github.com/srmtwenty/revature_project2_ui">
+                                <ul style={{display:"inline-block"}}>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/revature_project2_ui">
                                         Github (UI)
                                     </a></li>
-                                    <li><a href="https://github.com/srmtwenty/revature_project2_backend">
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/revature_project2_backend">
                                         Github (Backend)
                                     </a></li>
                                 </ul>
@@ -368,10 +368,10 @@ export default(props)=>{
                             
                         </div>
 
-                        <div style={{backgroundColor:"rgba(240, 252, 230)",marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor:"rgba(240, 252, 230)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand3()} style={subTitle2}>
                                 <h3>Car Dealer Ship - Web API (Java, 2022)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
 
                             {
@@ -425,11 +425,11 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor: "rgba(235, 255, 253)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             
                             <div onClick={()=>handleExpand4()} style={subTitle2}>
                                 <h3>Athlete Database Ver 1 (Java, 2022)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
                             {
                                 expandWork4?
@@ -484,10 +484,10 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor:"rgba(255, 247, 224)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor:"rgba(255, 247, 224)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand5()} style={subTitle2}>
                                 <h3>Friendbook - A clone of Facebook's social media app (Java, 2020)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
 
                             {
@@ -541,10 +541,10 @@ export default(props)=>{
                     
                         </div>
 
-                        <div style={{backgroundColor: "rgba(227, 250, 231)", marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(227, 250, 231)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand6()} style={subTitle2}>
                                 <h3>AQI-Maps - Real time air quality map(MERN, 2020)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
 
                             {
@@ -598,10 +598,10 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor: "rgba(235, 255, 253)",marginTop:"40px", padding: "20px 0px 20px 0px"}}>
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand7()} style={subTitle2}>
                                 <h3>EasyShop - Simple E-commerce website (Python/Django, 2020)</h3>
-                                <p>Click to expand</p>
+                                <p>Click to expand/collapse</p>
                             </div>
 
                             {
