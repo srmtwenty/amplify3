@@ -52,7 +52,29 @@ import project7g from '../images/project7g.jpg';
 import project7h from '../images/project7h.jpg';
 import project7i from '../images/project7i.jpg';
 
+import projectG1 from '../images/project_game_video_2024a_01.jpg';
+import projectG2 from '../images/project_game_video_2024a_02.jpg';
+import projectG3 from '../images/project_game_video_2024a_03.jpg';
+import projectG4 from '../images/project_game_video_2024a_04.jpg';
+import projectG5 from '../images/project_game_video_2024a_05.jpg';
+import projectG6 from '../images/project_game_video_2024a_06.jpg';
+import projectG7 from '../images/project_game_video_2024a_07.jpg';
+import projectG8 from '../images/project_game_video_2024a_08.jpg';
+import projectG9 from '../images/project_game_video_2024a_09.jpg';
+
 export default(props)=>{
+    const images8=[
+        {url:"static/media/project_game_video_2024a_01.f615e722d62625d34ceb.jpg"},
+       {url:"static/media/project_game_video_2024a_02.7752aa216638b329d506.jpg"},
+       {url:"static/media/project_game_video_2024a_03.364181a4aaf71deca23c.jpg"},
+       {url:"static/media/project_game_video_2024a_04.0267bac8a983d5a01891.jpg"},
+       {url:"static/media/project_game_video_2024a_05.bdfc3cd5ad826751cf44.jpg"},
+       {url:"static/media/project_game_video_2024a_06.f98eaf75c51d0d1d6c09.jpg"},
+       {url:"static/media/project_game_video_2024a_07.9d23b3eadab7cd64973a.jpg"},
+       {url:"static/media/project_game_video_2024a_08.5cb780c50443e10191a5.jpg"},
+        {url:"static/media/project_game_video_2024a_09.508bb382684639958121.jpg"},
+    ]
+
     const images7=[
         {url:"static/media/project7a.37f80b779760ee5d5ff5.jpg"},
        {url:"static/media/project7b.2cefc492cf7208fdc326.jpg"},
@@ -153,6 +175,7 @@ export default(props)=>{
     const [expandWork5, setExpandWork5]=useState(false)
     const [expandWork6, setExpandWork6]=useState(false)
     const [expandWork7, setExpandWork7]=useState(false)
+    const [expandWork8, setExpandWork8]=useState(false)
 
     const handleExpand1=()=>{
         if(expandWork1==false){
@@ -203,6 +226,13 @@ export default(props)=>{
             setExpandWork7(false)
         }
     }
+    const handleExpand8=()=>{
+        if(expandWork8==false){
+            setExpandWork8(true)
+        }else{
+            setExpandWork8(false)
+        }
+    }
 
     return(
         <>
@@ -212,18 +242,112 @@ export default(props)=>{
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
                 <div style={{minWidth:"400px", textAlign: "center",maxWidth: "70%", height: "auto" , display:"block", marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "3px", paddingBottom:"10px", border: "red none 2px"}}>
                     
+                <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                            
+                            <div onClick={()=>handleExpand8()} style={subTitle2}>
+                                <h3>API RPG Game (Java && React JS, 2024)</h3>
+                                <p>Click to expand/collapse</p>
+                            </div>
+
+                            
+                            {
+                                expandWork8?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
+                                <ul style={{display:"inline-block"}}>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/rpg1_ui">
+                                        Github (UI)
+                                    </a></li>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/rpg1">
+                                        Github (Backend)
+                                    </a></li>
+                                </ul>
+
+                                <div style={{margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>
+                                            Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>
+                                            Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                        </li>
+
+                                        <li>
+                                            Developed several different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing items, weapons, and armors they created as hosts
+                                        </li>
+
+                                        <li>
+                                            Implemented 'PUT' method between entities in order to apply update(money, status change) from purchasing or equipping equipments.
+                                        </li>
+
+                                        <li>
+                                            Utilized Docker to create and run Postgres containers to use it as an API database.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
+                                    <p style={subTitle}>Screenshots</p>
+                                    <div style={{border:"1px solid yellow"}}>
+                                        <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                            <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
+                                            
+                                            <SimpleImageSlider
+                                                width="100%"
+                                                height="100%"
+                                                images={images8}
+                                                style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                                top:0,
+                                                left:0,
+                                                width: "100%",
+                                                height: "100%"}}
+                                                navStyle={1}
+                                                showNavs={true}
+                                                showBullets={true}
+                                                bgColor="black"
+                                            />
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+
+                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
+                                    <p style={subTitle}>Video</p>
+                                        <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
+
+                                            
+                                            <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                                <ReactPlayer style={playerStyle}
+                                                    url="https://vimeo.com/982264860"
+                                                    controls
+                                                    width="100%"
+                                                    height="100%"
+                                                />
+                                            </div>
+                                        </div>
+                                </div>   
+                            </div>
+                                </>
+                                :<></>
+                            }
+                            
+                        </div>
+
+
                 
 
-                    <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                    <div style={{backgroundColor: "rgba(240, 252, 230)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             
-                            <div onClick={()=>handleExpand1()} style={subTitle2}>
+                            <div onClick={()=>handleExpand7()} style={subTitle2}>
                                 <h3>Athlete Database Ver 2 (Java && React JS, 2024)</h3>
                                 <p>Click to expand/collapse</p>
                             </div>
 
                             
                             {
-                                expandWork1?
+                                expandWork7?
                                 <>
                                     <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
                                 <ul style={{display:"inline-block"}}>
@@ -238,12 +362,11 @@ export default(props)=>{
                                 <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
                                         <li>
-                                            Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                            Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
                                         </li>
 
                                         <li>
                                             Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
-
                                         </li>
 
                                         <li>
@@ -307,7 +430,6 @@ export default(props)=>{
 
 
                         <div style={{backgroundColor: "rgba(252, 246, 230)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
-                            
                             <div onClick={()=>handleExpand2()} style={subTitle2}>
                                 <h3>Amplifire Heroes (Java & React JS, 2022)</h3>
                                 <p>Click to expand/collapse</p>
@@ -327,7 +449,7 @@ export default(props)=>{
 
                                 <div style={{margin:"auto", border: "red none 2px"}}>
                                     <ul style={{margin: "20px", textAlign:"left"}}>
-                                        <li>Created jsp forms with Spring Tool Suite to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        <li>Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
                                         </li>
 
                                         <li>Implemented a MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table

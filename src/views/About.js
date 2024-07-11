@@ -52,6 +52,7 @@ import Intellij from '../images/icons/intellij.png';
 import Postgres from '../images/icons/postgresql.png';
 import HomepageTitle from '../images/homepage_title2024a.jpg';
 import RPG5a from '../images/rpg_api5a.jpg';
+import RPG_NewA from '../images/project_game_video_2024a_09.jpg'
 const About=()=>{
     const eachSkill={
         display: "flex", 
@@ -132,21 +133,20 @@ const About=()=>{
                         <div style={{backgroundColor:"rgba(235, 250, 252)",boxShadow:"0 2px 4px 0",border:"gray solid 1px", borderRadius:"10px", padding:"10px 10px 10px 10px", margin:"auto", width:"80%"}}>
                             <div style={{margin:"auto"}}>
                                 <div style={{margin:"auto"}}>
-                                    <h2 style={{textAlign:"center"}}>Current Project I am working on:</h2>
+                                    <h2 style={{textAlign:"center"}}>Update (7/10/2024):</h2>
                                 </div>
                                 
-                            
                                 <div>
                                     <ul>
-                                    <li>Full Stack Web Application with Api and RPG Game</li>
-                                    <li>You can create your own character.</li>
-                                    <li>You can purchase and equip various weapons and armors.</li>
-                                    <li>Last but not least, you can fight against various monsters around the world!</li>
-                                </ul>
+                                        <li>Api and RPG Game has been added under "Works(Coding) page"</li>
+                                        <li>You can create your own character.</li>
+                                        <li>You can purchase and equip various weapons and armors.</li>
+                                        <li>Last but not least, you can fight against various monsters around the world!</li>
+                                    </ul>
                                 </div>
                            
                             <div style={{margin:"auto", border:"1px solid", padding:"10px, 0, 0, 10px, 0"}}>
-                                <img src={RPG5a} style={{width:"100%"}}/>
+                                <img src={RPG_NewA} style={{width:"100%"}}/>
                                 {/*}
                                 <div style={{position:"relative", paddingTop:"56.25%"}}>
                                             <ReactPlayer style={playerStyle}
