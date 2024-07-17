@@ -63,7 +63,7 @@ const WorksAnim=(props)=>{
                             height="100%"
                         />
                     </div>
-                    <div>
+                    <div style={{backgroundColor:"white"}}>
                         <button onClick={(e)=>{togglePanel(e)}} style={{margin: "7px"}}>
                             Click for details</button>
                             {open ? (

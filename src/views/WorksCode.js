@@ -141,9 +141,9 @@ export default(props)=>{
     }
 
     const subTitle={
-        border:"solid 1px black",
-        backgroundColor:"white",
-        borderRadius:"5px",
+        borderBottom:"solid 1px black",
+        //backgroundColor:"white",
+        //borderRadius:"5px",
         width:"200px",
         marginLeft:"auto",
         marginRight:"auto",
@@ -254,81 +254,80 @@ export default(props)=>{
                                 expandWork8?
                                 <>
                                     <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
-                                <ul style={{display:"inline-block"}}>
-                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/rpg1_ui">
-                                        Github (UI)
-                                    </a></li>
-                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/rpg1">
-                                        Github (Backend)
-                                    </a></li>
-                                </ul>
+                                        <ul style={{display:"inline-block"}}>
+                                            <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/rpg1_ui">
+                                                Github (UI)
+                                            </a></li>
+                                            <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/rpg1">
+                                                Github (Backend)
+                                            </a></li>
+                                        </ul>
 
-                                <div style={{margin:"auto", border: "red none 2px"}}>
-                                    <ul style={{margin: "20px", textAlign:"left"}}>
-                                        <li>
-                                            Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
-                                        </li>
+                                    <div style={{margin:"auto", border: "red none 2px"}}>
+                                        <ul style={{margin: "20px", textAlign:"left"}}>
+                                            <li>
+                                                Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                            </li>
 
-                                        <li>
-                                            Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
-                                        </li>
+                                            <li>
+                                                Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                            </li>
 
-                                        <li>
-                                            Developed several different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing items, weapons, and armors they created as hosts
-                                        </li>
+                                            <li>
+                                                Developed several different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing items, weapons, and armors they created as hosts
+                                            </li>
 
-                                        <li>
-                                            Implemented 'PUT' method between entities in order to apply update(money, status change) from purchasing or equipping equipments.
-                                        </li>
+                                            <li>
+                                                Implemented 'PUT' method between entities in order to apply update(money, status change) from purchasing or equipping equipments.
+                                            </li>
 
-                                        <li>
-                                            Utilized Docker to create and run Postgres containers to use it as an API database.
-                                        </li>
-                                    </ul>
-                                </div>
-                                
-                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
-                                    <p style={subTitle}>Screenshots</p>
-                                    <div style={{border:"1px solid yellow"}}>
-                                        <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
-                                            <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
-                                            
-                                            <SimpleImageSlider
-                                                width="100%"
-                                                height="100%"
-                                                images={images8}
-                                                style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
-                                                top:0,
-                                                left:0,
-                                                width: "100%",
-                                                height: "100%"}}
-                                                navStyle={1}
-                                                showNavs={true}
-                                                showBullets={true}
-                                                bgColor="black"
-                                            />
-                                        </div>
+                                            <li>
+                                                Utilized Docker to create and run Postgres containers to use it as an API database.
+                                            </li>
+                                        </ul>
                                     </div>
-                                    </div>
-                                </div>
-                                
-
-                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <p style={subTitle}>Video</p>
-                                        <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
-
-                                            
-                                            <div style={{position:"relative", paddingTop:"56.25%"}}>
-                                                <ReactPlayer style={playerStyle}
-                                                    url="https://vimeo.com/982264860"
-                                                    controls
+                                    
+                                    <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
+                                        <h3 style={subTitle}>Screenshots</h3>
+                                        <div style={{border:"1px solid yellow"}}>
+                                            <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                                <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
+                                                
+                                                <SimpleImageSlider
                                                     width="100%"
                                                     height="100%"
+                                                    images={images8}
+                                                    style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                                    top:0,
+                                                    left:0,
+                                                    width: "100%",
+                                                    height: "100%"}}
+                                                    navStyle={1}
+                                                    showNavs={true}
+                                                    showBullets={true}
+                                                    bgColor="black"
                                                 />
                                             </div>
                                         </div>
-                                </div>   
-                            </div>
+                                        </div>
+                                    </div>
+                                
+
+                                    <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
+                                        <h3 style={subTitle}>Video</h3>
+                                            <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
+
+                                                <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                                    <ReactPlayer style={playerStyle}
+                                                        url="https://vimeo.com/982264860"
+                                                        controls
+                                                        width="100%"
+                                                        height="100%"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
                                 </>
                                 :<></>
                             }
@@ -337,8 +336,7 @@ export default(props)=>{
 
 
                 
-
-                    <div style={{backgroundColor: "rgba(240, 252, 230)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                    <div style={{backgroundColor: "rgba(240, 252, 230)", boxShadow:"0 2px 5px 0", marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             
                             <div onClick={()=>handleExpand7()} style={subTitle2}>
                                 <h3>Athlete Database Ver 2 (Java && React JS, 2024)</h3>
@@ -380,7 +378,7 @@ export default(props)=>{
                                 </div>
                                 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
-                                    <p style={subTitle}>Screenshots</p>
+                                    <h3 style={subTitle}>Screenshots</h3>
                                     <div style={{border:"1px solid yellow"}}>
                                         <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                             <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
@@ -406,7 +404,7 @@ export default(props)=>{
                                 
 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <p style={subTitle}>Video</p>
+                                    <h3 style={subTitle}>Video</h3>
                                         <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
 
                                             
@@ -429,7 +427,7 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor: "rgba(252, 246, 230)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                        <div style={{backgroundColor: "rgba(252, 246, 230)", boxShadow:"0 2px 5px 0", marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand2()} style={subTitle2}>
                                 <h3>Amplifire Heroes (Java & React JS, 2022)</h3>
                                 <p>Click to expand/collapse</p>
@@ -461,7 +459,7 @@ export default(props)=>{
                                 </div>
 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                <p style={subTitle}>Screenshots</p>
+                                <h3 style={subTitle}>Screenshots</h3>
 
                                 <div style={{backgroundColor:"black", padding:"15px"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -490,7 +488,7 @@ export default(props)=>{
                             
                         </div>
 
-                        <div style={{backgroundColor:"rgba(240, 252, 230)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                        <div style={{backgroundColor:"rgba(240, 252, 230)", boxShadow:"0 2px 5px 0",marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand3()} style={subTitle2}>
                                 <h3>Car Dealer Ship - Web API (Java, 2022)</h3>
                                 <p>Click to expand/collapse</p>
@@ -518,7 +516,7 @@ export default(props)=>{
                                 </div>
                             
                             <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                            <p style={subTitle}>Screenshots</p>
+                            <h3 style={subTitle}>Screenshots</h3>
                            
                             <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                             <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -547,7 +545,7 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0",marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             
                             <div onClick={()=>handleExpand4()} style={subTitle2}>
                                 <h3>Athlete Database Ver 1 (Java, 2022)</h3>
@@ -575,7 +573,7 @@ export default(props)=>{
                                 </div>
 
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <p style={subTitle}>Screenshots</p>
+                                    <h3 style={subTitle}>Screenshots</h3>
                                 
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -606,7 +604,7 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor:"rgba(255, 247, 224)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                        <div style={{backgroundColor:"rgba(255, 247, 224)", boxShadow:"0 2px 5px 0",marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand5()} style={subTitle2}>
                                 <h3>Friendbook - A clone of Facebook's social media app (Java, 2020)</h3>
                                 <p>Click to expand/collapse</p>
@@ -633,7 +631,7 @@ export default(props)=>{
                                 </div>
                             
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <p style={subTitle}>Screenshots</p>
+                                    <h3 style={subTitle}>Screenshots</h3>
                       
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -663,7 +661,7 @@ export default(props)=>{
                     
                         </div>
 
-                        <div style={{backgroundColor: "rgba(227, 250, 231)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                        <div style={{backgroundColor: "rgba(227, 250, 231)", boxShadow:"0 2px 5px 0",marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand6()} style={subTitle2}>
                                 <h3>AQI-Maps - Real time air quality map(MERN, 2020)</h3>
                                 <p>Click to expand/collapse</p>
@@ -690,7 +688,7 @@ export default(props)=>{
                                 </div>
                             
                                 <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <p style={subTitle}>Screenshots</p>
+                                    <h3 style={subTitle}>Screenshots</h3>
                    
                                 <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                 <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
@@ -720,7 +718,7 @@ export default(props)=>{
 
 
 
-                        <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0",marginTop:"10px", padding: "10px 0px 10px 0px"}}>
+                        <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0",marginTop:"20px", padding: "10px 0px 10px 0px"}}>
                             <div onClick={()=>handleExpand7()} style={subTitle2}>
                                 <h3>EasyShop - Simple E-commerce website (Python/Django, 2020)</h3>
                                 <p>Click to expand/collapse</p>
@@ -746,7 +744,7 @@ export default(props)=>{
                                     </div>
                         
                                     <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                        <p style={subTitle}>Screenshots</p>
+                                        <h3 style={subTitle}>Screenshots</h3>
                                     <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
                                     <div style={{backgroundColor:"yellow", position:"relative", paddingTop:"62.25%"}}>
                                         <SimpleImageSlider
