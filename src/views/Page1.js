@@ -4,6 +4,8 @@ import '../styles/resumeStyle.css';
 import SinglePagePDFViewer from "../components/single-page";
 
 import Scott_Cho_resume_full_stack_developer from '../documents/Scott_Cho_Resume _Full_Stack_2022A.pdf';
+import Scott_Cho_resume_full_stack_developer2 from '../documents/Scott_Cho_Resume2024a_Full_Stack_Developer.pdf';
+
 function Page1(){
     return(
         <>
@@ -16,10 +18,10 @@ function Page1(){
                             <Link style={{fontSize:"16px", textDecoration: "none"}} className="current" to="/resume_code">Full Stack Developer</Link> 
                             <Link className="currentOff" style={{fontSize:"16px", textDecoration: "none"}} to="/resume_anim">CG Animator</Link>
                         </div>
-                        <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer}/>
+                        <SinglePagePDFViewer pdf={Scott_Cho_resume_full_stack_developer2}/>
 
                         <div style={{textAlign:"center"}} >
-                            <a href={Scott_Cho_resume_full_stack_developer} download="Scott_Cho_resume_full_stack_developer">Download Resume(Full Stack Developer)</a>
+                            <a href={Scott_Cho_resume_full_stack_developer2} download="Scott_Cho_resume_full_stack_developer">Download Resume(Full Stack Developer)</a>
                         </div>    
                   
                 </div>
