@@ -136,7 +136,7 @@ const About=()=>{
                                     <h2 style={{textAlign:"center"}}>Update (7/10/2024):</h2>
                                 </div>
                                 
-                                <div>
+                                <div style={{margin:"auto", width:"50%"}}>
                                     <ul>
                                         <li>Api and RPG Game has been added under "Works(Coding) page"</li>
                                         
