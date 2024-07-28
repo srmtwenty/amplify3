@@ -54,3 +54,15 @@
     padding-bottom: 5px;
     margin-bottom: 0px;
 } */
+
+.button1a{
+    margin: "7px"; 
+    padding:"10px"; 
+    border:"2px solid";
+    
+}
+.button1a:hover{
+    background-color:"gray";
+    color:"white";
+    border:"3px solid white";
+}

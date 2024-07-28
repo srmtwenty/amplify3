@@ -119,7 +119,7 @@ const About=()=>{
      
         <div style={{backgroundColor: "rgba(238, 238, 238)", width:"100%"}}>
             
-            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", minWidth:"400px",maxWidth: "70%", display: "block"}}>
+            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", minWidth:"400px",maxWidth: "80%", display: "block"}}>
 
        
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
@@ -130,7 +130,7 @@ const About=()=>{
                         </div>
                     {/*</div>*/}
                         
-                        <div style={{backgroundColor:"rgba(235, 250, 252)",boxShadow:"0 2px 4px 0",border:"gray solid 1px", borderRadius:"10px", padding:"10px 10px 10px 10px", margin:"auto", width:"80%"}}>
+                        <div style={{backgroundColor:"rgba(235, 250, 252)",boxShadow:"0 2px 4px 0",border:"gray solid 1px", borderRadius:"10px", padding:"10px 10px 40px 10px", margin:"auto", width:"90%"}}>
                             <div style={{margin:"auto"}}>
                                 <div style={{margin:"auto"}}>
                                     <h2 style={{textAlign:"center"}}>Update (7/10/2024):</h2>
@@ -139,24 +139,23 @@ const About=()=>{
                                 <div>
                                     <ul>
                                         <li>Api and RPG Game has been added under "Works(Coding) page"</li>
-                                        <li>You can create your own character.</li>
-                                        <li>You can purchase and equip various weapons and armors.</li>
-                                        <li>Last but not least, you can fight against various monsters around the world!</li>
+                                        
                                     </ul>
                                 </div>
                            
-                            <div style={{margin:"auto", border:"1px solid", padding:"10px, 0, 0, 10px, 0"}}>
-                                <img src={RPG_NewA} style={{width:"100%"}}/>
-                                {/*}
-                                <div style={{position:"relative", paddingTop:"56.25%"}}>
-                                            <ReactPlayer style={playerStyle}
-                                                url="https://vimeo.com/925275553" 
-                                                controls
-                                                width="100%"
-                                                height="100%"
-                                            />
-    </div>*/}
-                            </div>
+
+                                        <img src={RPG_NewA} style={{minWidth:"300px", maxWidth:"350px",display:"block", margin:"auto"}}/>
+                                    {/*}
+                                    <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                                <ReactPlayer style={playerStyle}
+                                                    url="https://vimeo.com/925275553" 
+                                                    controls
+                                                    width="100%"
+                                                    height="100%"
+                                                />
+                                    </div>*/}
+                                    
+                                
                             </div>
                         </div>
                     
