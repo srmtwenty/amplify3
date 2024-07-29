@@ -72,7 +72,7 @@
     margin: "auto";
     
     /*background-color: rgb(184, 184, 184);*/
-    background-image: linear-gradient(to bottom, rgba(184, 184, 184, .8), white);
+    background-image: linear-gradient(to bottom, rgba(244, 244, 244, 0.8), white);
     border-radius: 10px;
     border: black solid 2px;
     padding: 10px;
@@ -107,11 +107,10 @@
 .title{
     /* background-image: linear-gradient(to bottom right, rgb(207, 207, 207, .8), rgb(149, 149, 149, 08)); */
     /* background-color: white; */
-    border: red none 2px;
+    border: 2px solid;
     font-style: bold;
-    border-radius: 25px 25px 0px 0px;/* background-image: linear-gradient(to bottom right, rgb(189, 216, 238), rgb(129, 175, 236)); */
+    background-color:white;
     margin-top: 0px;
-    
     /* background-color: gray; */
     /* border-radius: 5px; */
     text-align:center;
@@ -145,7 +144,8 @@
     padding: 0px 30px 0px 30px;
     box-shadow: 0 0 15px #ccc;
     
-    margin:"auto";
+    width:70%;
+    margin:auto;
     /* margin-left: auto;
     margin-right: auto; */
     /* width: 800px; */
@@ -211,4 +211,9 @@
     
 }
 
+.skillName{
+    padding-left:10px; 
+    top:50%; 
+    transform:translate(0, -50%);
+}
 

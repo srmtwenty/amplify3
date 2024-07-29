@@ -58,7 +58,7 @@ const About=()=>{
         display: "flex", 
         // textAlign: "left",
         border: "2px solid",
-        borderRadius:"15px", 
+        borderRadius:"5px", 
         width: "220px",
         height: "60px",
         justifyContent: "left",
@@ -138,7 +138,7 @@ const About=()=>{
                                     <h2 style={{textAlign:"center"}}>Update (7/10/2024):</h2>
                                 </div>
                                 
-                                <div style={{margin:"auto", width:"50%"}}>
+                                <div style={{margin:"auto", width:"80%"}}>
                                     <ul>
                                         <li>Api and RPG Game has been added under "Works(Coding) page"</li>
                                         
@@ -168,7 +168,7 @@ const About=()=>{
                                 
                             
                                 <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
-                                    <img src={aboutPic1} style={{minWidth:"100px",height:"auto", display:"block", margin:"auto", paddingBottom:"10px"}}/>
+                                    <img src={aboutPic1} style={{minWidth:"100px",height:"auto", display:"block", margin:"auto", paddingBottom:"10px", marginTop:"10px"}}/>
                                     <div className="content1">
                                         <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                         <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.</p>
@@ -182,51 +182,51 @@ const About=()=>{
                                     
                                         <div style={eachSkill}>
                                             <img src={HTML} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>HTML</h4>
+                                            <h4 className="skillName">HTML</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={CSS} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>CSS</h4>
+                                            <h4 className="skillName">CSS</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Python} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Python</h4>
+                                            <h4 className="skillName">Python</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={JavaScript} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>JavaScript</h4>
+                                            <h4 className="skillName">JavaScript</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={MongoDB} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>MongoDB</h4>
+                                            <h4 className="skillName">MongoDB</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Mongoose} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Mongoose</h4>
+                                            <h4 className="skillName">Mongoose</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Express} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Express</h4>
+                                            <h4 className="skillName">Express</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={React1} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>React</h4>
+                                            <h4 className="skillName">React</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Node} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Node</h4>
+                                            <h4 className="skillName">Node</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Spring} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Spring Tool Suite</h4>
+                                            <h4 className="skillName">Spring Tool Suite</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Java} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Java</h4>
+                                            <h4 className="skillName">Java</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Visual} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Visual Studio Code</h4>
+                                            <h4 className="skillName">Visual Studio Code</h4>
                                         </div>
                                         {/* <div style={eachSkill}>
                                             <img src={Python} style={{width:"50px", height:"50px"}}/>
@@ -234,40 +234,40 @@ const About=()=>{
                                         </div> */}
                                         <div style={eachSkill}>
                                             <img src={SQL} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>MySQL</h4>
+                                            <h4 className="skillName">MySQL</h4>
                                         </div>
                                     
                                         <div style={eachSkill}>
                                             <img src={Postman} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Postman</h4>
+                                            <h4 className="skillName">Postman</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Git} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Github</h4>
+                                            <h4 className="skillName">Github</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Api} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Api</h4>
+                                            <h4 className="skillName">Api</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Postgres} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>PostgreSQL</h4>
+                                            <h4 className="skillName">PostgreSQL</h4>
                                         </div>
                                         
                                         
                                         <div style={eachSkill}>
                                             <img src={Dbeaver} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Dbeaver</h4>
+                                            <h4 className="skillName">Dbeaver</h4>
                                         </div>
 
                                         <div style={eachSkill}>
                                             <img src={Docker} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Docker</h4>
+                                            <h4 className="skillName">Docker</h4>
                                         </div>
 
                                         <div style={eachSkill}>
                                             <img src={Intellij} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Intellij</h4>
+                                            <h4 className="skillName">Intellij</h4>
                                         </div>
                                     </div>
                                 </div>    
@@ -275,7 +275,7 @@ const About=()=>{
                                 <div style={aboutStyle2a}>
                                     <h2 className="title">As An Animator:</h2>
                                     
-                                    <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
+                                    <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap", marginTop:"10px"}}>
                                         <img src={aboutPic2} style={{minWidth:"100px",height:"auto", display:"block", margin:"auto", paddingBottom:"10px"}}/>
                                         <div className="content1">
                                             <p>I am passionate of making variety type of exciting animations for various characters(human, vehicles, animals) in film or video game. I love watching animated films, athletics, or live action to analyze and understand more about camera&character movements.</p>
@@ -291,35 +291,35 @@ const About=()=>{
                                         
                                         <div style={eachSkill}>
                                             <img src={Maya} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Maya</h4>
+                                            <h4 className="skillName">Maya</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Photo} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Photoshop CS</h4>
+                                            <h4 className="skillName">Photoshop CS</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={CSS} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Premiere Pro</h4>
+                                            <h4 className="skillName">Premiere Pro</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Motion} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>MotionBuilder</h4>
+                                            <h4 className="skillName">MotionBuilder</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Unity} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Unity</h4>
+                                            <h4 className="skillName">Unity</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={AEffect} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>After Effect</h4>
+                                            <h4 className="skillName">After Effect</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Illustrator} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Illustrator CS</h4>
+                                            <h4 className="skillName">Illustrator CS</h4>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Audacity} className="skillImg"/>
-                                            <h4 style={{paddingLeft:"10px"}}>Audacity</h4>
+                                            <h4 className="skillName">Audacity</h4>
                                         </div>
                                     </div>
                                 </div>
