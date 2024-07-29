@@ -59,8 +59,8 @@ const About=()=>{
         // textAlign: "left",
         border: "2px solid",
         borderRadius:"5px", 
-        width: "220px",
-        height: "60px",
+        width: "180px",
+        height: "50px",
         justifyContent: "left",
         // height: "50px",
         // marginLeft: "5px",
@@ -145,8 +145,8 @@ const About=()=>{
                                     </ul>
                                 </div>
                            
-
-                                        <img src={RPG_NewA} style={{minWidth:"300px", maxWidth:"350px",display:"block", margin:"auto"}}/>
+                                    <div style={{backgroundColor:"black", maxHeight:"79%", maxWidth:"79%", margin:"auto"}}>
+                                        <img src={RPG_NewA} style={{maxHeight:"80%", maxWidth:"80%",display:"block", margin:"auto"}}/>
                                     {/*}
                                     <div style={{position:"relative", paddingTop:"56.25%"}}>
                                                 <ReactPlayer style={playerStyle}
@@ -156,7 +156,7 @@ const About=()=>{
                                                     height="100%"
                                                 />
                                     </div>*/}
-                                    
+                                    </div>
                                 
                             </div>
                         </div>
@@ -182,51 +182,51 @@ const About=()=>{
                                     
                                         <div style={eachSkill}>
                                             <img src={HTML} className="skillImg"/>
-                                            <h4 className="skillName">HTML</h4>
+                                            <h5 className="skillName">HTML</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={CSS} className="skillImg"/>
-                                            <h4 className="skillName">CSS</h4>
+                                            <h5 className="skillName">CSS</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Python} className="skillImg"/>
-                                            <h4 className="skillName">Python</h4>
+                                            <h5 className="skillName">Python</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={JavaScript} className="skillImg"/>
-                                            <h4 className="skillName">JavaScript</h4>
+                                            <h5 className="skillName">JavaScript</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={MongoDB} className="skillImg"/>
-                                            <h4 className="skillName">MongoDB</h4>
+                                            <h5 className="skillName">MongoDB</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Mongoose} className="skillImg"/>
-                                            <h4 className="skillName">Mongoose</h4>
+                                            <h5 className="skillName">Mongoose</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Express} className="skillImg"/>
-                                            <h4 className="skillName">Express</h4>
+                                            <h5 className="skillName">Express</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={React1} className="skillImg"/>
-                                            <h4 className="skillName">React</h4>
+                                            <h5 className="skillName">React</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Node} className="skillImg"/>
-                                            <h4 className="skillName">Node</h4>
+                                            <h5 className="skillName">Node</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Spring} className="skillImg"/>
-                                            <h4 className="skillName">Spring Tool Suite</h4>
+                                            <h5 className="skillName">Spring Tool Suite</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Java} className="skillImg"/>
-                                            <h4 className="skillName">Java</h4>
+                                            <h5 className="skillName">Java</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Visual} className="skillImg"/>
-                                            <h4 className="skillName">Visual Studio Code</h4>
+                                            <h5 className="skillName">Visual Studio Code</h5>
                                         </div>
                                         {/* <div style={eachSkill}>
                                             <img src={Python} style={{width:"50px", height:"50px"}}/>
@@ -234,40 +234,39 @@ const About=()=>{
                                         </div> */}
                                         <div style={eachSkill}>
                                             <img src={SQL} className="skillImg"/>
-                                            <h4 className="skillName">MySQL</h4>
+                                            <h5 className="skillName">MySQL</h5>
                                         </div>
                                     
                                         <div style={eachSkill}>
                                             <img src={Postman} className="skillImg"/>
-                                            <h4 className="skillName">Postman</h4>
+                                            <h5 className="skillName">Postman</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Git} className="skillImg"/>
-                                            <h4 className="skillName">Github</h4>
+                                            <h5 className="skillName">Github</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Api} className="skillImg"/>
-                                            <h4 className="skillName">Api</h4>
+                                            <h5 className="skillName">Api</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Postgres} className="skillImg"/>
-                                            <h4 className="skillName">PostgreSQL</h4>
+                                            <h5 className="skillName">PostgreSQL</h5>
                                         </div>
-                                        
                                         
                                         <div style={eachSkill}>
                                             <img src={Dbeaver} className="skillImg"/>
-                                            <h4 className="skillName">Dbeaver</h4>
+                                            <h5 className="skillName">Dbeaver</h5>
                                         </div>
 
                                         <div style={eachSkill}>
                                             <img src={Docker} className="skillImg"/>
-                                            <h4 className="skillName">Docker</h4>
+                                            <h5 className="skillName">Docker</h5>
                                         </div>
 
                                         <div style={eachSkill}>
                                             <img src={Intellij} className="skillImg"/>
-                                            <h4 className="skillName">Intellij</h4>
+                                            <h5 className="skillName">Intellij</h5>
                                         </div>
                                     </div>
                                 </div>    
@@ -291,35 +290,35 @@ const About=()=>{
                                         
                                         <div style={eachSkill}>
                                             <img src={Maya} className="skillImg"/>
-                                            <h4 className="skillName">Maya</h4>
+                                            <h5 className="skillName">Maya</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Photo} className="skillImg"/>
-                                            <h4 className="skillName">Photoshop CS</h4>
+                                            <h5 className="skillName">Photoshop CS</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={CSS} className="skillImg"/>
-                                            <h4 className="skillName">Premiere Pro</h4>
+                                            <h5 className="skillName">Premiere Pro</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Motion} className="skillImg"/>
-                                            <h4 className="skillName">MotionBuilder</h4>
+                                            <h5 className="skillName">MotionBuilder</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Unity} className="skillImg"/>
-                                            <h4 className="skillName">Unity</h4>
+                                            <h5 className="skillName">Unity</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={AEffect} className="skillImg"/>
-                                            <h4 className="skillName">After Effect</h4>
+                                            <h5 className="skillName">After Effect</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Illustrator} className="skillImg"/>
-                                            <h4 className="skillName">Illustrator CS</h4>
+                                            <h5 className="skillName">Illustrator CS</h5>
                                         </div>
                                         <div style={eachSkill}>
                                             <img src={Audacity} className="skillImg"/>
-                                            <h4 className="skillName">Audacity</h4>
+                                            <h5 className="skillName">Audacity</h5>
                                         </div>
                                     </div>
                                 </div>
