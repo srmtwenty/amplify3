@@ -19,7 +19,8 @@ body {
 
 .navbar {
   height: 60px;
-  background-color: #a0d0fe;
+  /*background-color: #a0d0fe;*/
+  background-image: linear-gradient(to right, #81bcf3, #c9e5ff);
   position: relative;
   z-index:9999;
 }
@@ -103,4 +104,6 @@ body {
     margin-right: unset;
     margin-top: 22px;
   }
+
+  
 }

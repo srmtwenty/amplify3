@@ -10,7 +10,7 @@ const Footer=()=>{
         <footer>
             <div className="footerStyle">
                 
-                    <h1 style={{padding:"0 0 0 40px"}}>Scott Cho 2.2</h1>
+                    <h1 style={{padding:"0 0 0 40px"}}>Scott Cho 3.1</h1>
               
                 
                 <div className="wrap">

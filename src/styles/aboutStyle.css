@@ -12,13 +12,14 @@
 .aboutPageSub{
     /*border-style: solid;
     background-color: rgba(217, 240, 255, 0.63);*/
+    margin-top:50px;
     margin-bottom:50px;
     width:95%;
     margin-left:auto;
     margin-right:auto;
     border:none black 1px;
     border-radius: 25px;
-   
+    
 }
 
 /* .aboutPage h1{
@@ -176,10 +177,12 @@
     /* width: 800px; */
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 13px;
-    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
     /* margin:0px; */
     /* width: 100%; */
+    border:2px solid;
+    background-color: rgba(253, 253, 253, 0.7);
 }
 
 .skills2{
@@ -188,10 +191,12 @@
     /* width: 800px; */
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 13px;
-    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
     /* margin:0px; */
     /* width: 100%; */
+    border:2px solid;
+    background-color:rgba(245, 245, 245, 0.7);
 }
 
 .contain1{
@@ -208,13 +213,34 @@
 .skillImg{
     width:40px;
     height:40px;
-    
 }
 
 .skillName{
     padding-left:10px; 
     top:50%; 
-    transform:translate(0, -50%);
-    
+    transform:translate(0, -50%);  
 }
+
+.titleBackground{
+        display:flex; 
+        flex-wrap:wrap; 
+        justify-content:space-between; 
+        padding-bottom:20px;  
+        padding-top:20px; 
+        /*background-color:black;*/
+        background-image:linear-gradient(to right, rgba(255, 250, 159, 0.7), rgba(245, 245, 245, 0.7));
+}
+
+.updateBackground{
+    /*background-image:linear-gradient(to bottom, #c9e5ff, #a3e3ff);
+    box-shadow:0 2px 4px 0;
+    border:gray solid 1px; 
+    border-radius:10px;*/
+    
+    /*border-top:1px solid;*/
+    border-bottom:1px solid;
+    padding:10px 10px 40px 10px; 
+    margin:auto;
+    /*width:90%;*/
+  }
 

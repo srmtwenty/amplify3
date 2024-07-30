@@ -66,7 +66,8 @@ const About=()=>{
         // marginLeft: "5px",
         // marginRight: "5px"
         margin: "5px",
-        padding:"7px 7px 0 7px"
+        padding:"7px 7px 0 7px",
+        backgroundColor:"white"
     }
     const eachSkill2={
         color:"white",
@@ -88,20 +89,20 @@ const About=()=>{
     /*background-color: rgb(184, 184, 184);*/
         borderRadius: "10px",
         border: "black solid 2px",
-        padding:"10px",
+        padding:"10px 10px 30px 10px",
         marginLeft:"auto",
         marginRight:"auto",
-        
+        backgroundImage: "linear-gradient(to bottom, rgba(217, 255, 253, 0.7), white)"
+
     }
     const aboutStyle2a={
-        
         width: "95%",
     /*background-color: rgb(184, 184, 184);*/
         backgroundImage: "linear-gradient(to bottom, rgba(184, 184, 184, .8), white)",
         borderRadius: "10px",
         boxShadow:"0 2px 4px 0",
         border: "black solid 2px",
-        padding:"10px",
+        padding:"10px 10px 30px 10px",
         marginLeft:"auto",
         marginRight:"auto",
         marginTop: "50px",
@@ -121,18 +122,17 @@ const About=()=>{
      
         <div style={{backgroundColor: "rgba(238, 238, 238)", width:"100%"}}>
             
-            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto", paddingTop:"20px", minWidth:"400px",maxWidth: "80%", display: "block"}}>
+            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto",minWidth:"400px",maxWidth: "80%", display: "block"}}>
 
-       
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
-                        <div style={{display:"flex", flexWrap:"wrap", justifyContent: "space-between", paddingBottom:"20px"}}>
+                        <div className="titleBackground">
                             
                             <img src={HomepageTitle} style={{display:"block", minWidth:"200px",maxWidth:"500px", margin:"auto", border:"solid black 1px"}}/>
                                 
                         </div>
                     {/*</div>*/}
                         
-                        <div style={{backgroundColor:"rgba(235, 250, 252)",boxShadow:"0 2px 4px 0",border:"gray solid 1px", borderRadius:"10px", padding:"10px 10px 40px 10px", margin:"auto", width:"90%"}}>
+                        <div className="updateBackground">
                             <div style={{margin:"auto"}}>
                                 <div style={{margin:"auto"}}>
                                     <h2 style={{textAlign:"center"}}>Update (7/10/2024):</h2>
@@ -166,18 +166,16 @@ const About=()=>{
 
                                 <h2 className="title">As A Full Stack Developer:</h2>
                                 
-                            
                                 <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
                                     <img src={aboutPic1} style={{minWidth:"100px",height:"auto", display:"block", margin:"auto", paddingBottom:"10px", marginTop:"10px"}}/>
                                     <div className="content1">
                                         <p>I am passionate about learning and finding efficient problem solutions in coding.</p>
                                         <p>I learned CSS, Python, MERN and Java at CodingDojo for 14 weeks without a computer science background in 2020, after keeping an eye on to a fast growing coding industry for a couple years.</p>
                                         <p>At the camp, I also worked on three projects under team working environment in Python, MERN and Java which helped me to understand coding further and get used to communicate with other teammates frequently to discuss problem solutions.</p>
-
                                     </div>
-                                    
                                 </div>
-                                    <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"solid"}}>Skills</h2>
+                                    
+                                    <h2 style={{marginBottom:"0px",fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"2px solid"}}>Skills</h2>
                                     <div className="skills">
                                     
                                         <div style={eachSkill}>
@@ -285,7 +283,7 @@ const About=()=>{
                                         </div>
                                     </div>
 
-                                    <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", borderBottomStyle:"solid", textAlign: "center"}}>Skills</h2>
+                                    <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "200px", textAlign: "center", marginBottom:"0px"}}>Skills</h2>
                                     <div className="skills2">
                                         
                                         <div style={eachSkill}>
@@ -324,11 +322,8 @@ const About=()=>{
                                 </div>
                             </div>
                         
-
-               
             </div>
-           
-     
+        
         </div>                                
     )
 }
