@@ -175,6 +175,7 @@ const About=()=>{
                                     </div>
                                 </div>
                                     
+                                <div style={{border:"2px solid",borderRadius: "10px 10px 10px 10px", marginTop:"20px", backgroundColor:"white"}}>
                                     <h2 style={{marginBottom:"0px",fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "100px", textAlign: "center", borderBottomStyle:"2px solid"}}>Skills</h2>
                                     <div className="skills">
                                     
@@ -267,7 +268,8 @@ const About=()=>{
                                             <h5 className="skillName">Intellij</h5>
                                         </div>
                                     </div>
-                                </div>    
+                                </div>  
+                            </div>  
                         
                                 <div style={aboutStyle2a}>
                                     <h2 className="title">As An Animator:</h2>
@@ -283,42 +285,46 @@ const About=()=>{
                                         </div>
                                     </div>
 
-                                    <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "200px", textAlign: "center", marginBottom:"0px"}}>Skills</h2>
-                                    <div className="skills2">
-                                        
-                                        <div style={eachSkill}>
-                                            <img src={Maya} className="skillImg"/>
-                                            <h5 className="skillName">Maya</h5>
+                                    <div style={{border:"2px solid",borderRadius: "10px 10px 10px 10px", marginTop:"20px", backgroundColor:"white"}}>
+                                        <h2 style={{fontStyle:"italic", marginLeft:"auto", marginRight:"auto", width: "200px", textAlign: "center", marginBottom:"0px"}}>Skills</h2>
+                                        <div className="skills2">
+                                            
+                                            <div style={eachSkill}>
+                                                <img src={Maya} className="skillImg"/>
+                                                <h5 className="skillName">Maya</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={Photo} className="skillImg"/>
+                                                <h5 className="skillName">Photoshop CS</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={CSS} className="skillImg"/>
+                                                <h5 className="skillName">Premiere Pro</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={Motion} className="skillImg"/>
+                                                <h5 className="skillName">MotionBuilder</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={Unity} className="skillImg"/>
+                                                <h5 className="skillName">Unity</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={AEffect} className="skillImg"/>
+                                                <h5 className="skillName">After Effect</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={Illustrator} className="skillImg"/>
+                                                <h5 className="skillName">Illustrator CS</h5>
+                                            </div>
+                                            <div style={eachSkill}>
+                                                <img src={Audacity} className="skillImg"/>
+                                                <h5 className="skillName">Audacity</h5>
+                                            </div>
                                         </div>
-                                        <div style={eachSkill}>
-                                            <img src={Photo} className="skillImg"/>
-                                            <h5 className="skillName">Photoshop CS</h5>
-                                        </div>
-                                        <div style={eachSkill}>
-                                            <img src={CSS} className="skillImg"/>
-                                            <h5 className="skillName">Premiere Pro</h5>
-                                        </div>
-                                        <div style={eachSkill}>
-                                            <img src={Motion} className="skillImg"/>
-                                            <h5 className="skillName">MotionBuilder</h5>
-                                        </div>
-                                        <div style={eachSkill}>
-                                            <img src={Unity} className="skillImg"/>
-                                            <h5 className="skillName">Unity</h5>
-                                        </div>
-                                        <div style={eachSkill}>
-                                            <img src={AEffect} className="skillImg"/>
-                                            <h5 className="skillName">After Effect</h5>
-                                        </div>
-                                        <div style={eachSkill}>
-                                            <img src={Illustrator} className="skillImg"/>
-                                            <h5 className="skillName">Illustrator CS</h5>
-                                        </div>
-                                        <div style={eachSkill}>
-                                            <img src={Audacity} className="skillImg"/>
-                                            <h5 className="skillName">Audacity</h5>
-                                        </div>
+
                                     </div>
+                                    
                                 </div>
                             </div>
                         

@@ -144,7 +144,7 @@
     border-radius:0px 0px 5px 5px;
     padding: 0px 30px 0px 30px;
     box-shadow: 0 0 15px #ccc;
-    
+    min-width:390px;
     width:70%;
     margin:auto;
     /* margin-left: auto;
@@ -180,8 +180,8 @@
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
     /* margin:0px; */
-    /* width: 100%; */
-    border:2px solid;
+    /* width: 100%; 
+    border:2px solid;*/
     background-color: rgba(253, 253, 253, 0.7);
 }
 
@@ -194,8 +194,8 @@
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
     /* margin:0px; */
-    /* width: 100%; */
-    border:2px solid;
+    /* width: 100%; 
+    border:2px solid;*/
     background-color:rgba(245, 245, 245, 0.7);
 }
 
