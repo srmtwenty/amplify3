@@ -240,7 +240,7 @@ export default(props)=>{
         
             
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
-                <div style={{minWidth:"400px", textAlign: "center",maxWidth: "70%", height: "auto" , display:"block", marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "3px", paddingBottom:"10px", border: "red none 2px"}}>
+                <div style={{minWidth:"500px", textAlign: "center",maxWidth: "70%", height: "auto" , display:"block", marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "3px", paddingBottom:"10px", border: "red none 2px"}}>
                     
                 <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             

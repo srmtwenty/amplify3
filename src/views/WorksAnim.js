@@ -47,7 +47,7 @@ const WorksAnim=(props)=>{
                 border: "white solid 1px",
                 marginLeft:"auto",
                 marginRight:"auto",
-                minWidth:"400px",
+                minWidth:"500px",
                 maxWidth: "70%", 
                 display: "block"
                 // backgroundImage: `url(${File_001a})`,  
