@@ -122,7 +122,7 @@ const About=()=>{
      
         <div style={{backgroundColor: "rgba(238, 238, 238)", width:"100%"}}>
             
-            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto",minWidth:"400px",maxWidth: "80%", display: "block"}}>
+            <div style={{backgroundColor: "rgba(255, 255, 255, 0.7)", border: "white solid 1px", marginLeft:"auto", marginRight:"auto",minWidth:"500px",maxWidth: "80%", display: "block"}}>
 
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
                         <div className="titleBackground">
