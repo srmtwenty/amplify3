@@ -62,7 +62,32 @@ import projectG7 from '../images/project_game_video_2024a_07.jpg';
 import projectG8 from '../images/project_game_video_2024a_08.jpg';
 import projectG9 from '../images/project_game_video_2024a_09.jpg';
 
+import a01 from '../images/a01.jpg';
+import a02 from '../images/a02.jpg';
+import a03 from '../images/a03.jpg';
+import a04 from '../images/a04.jpg';
+import a05 from '../images/a05.jpg';
+import a06 from '../images/a06.jpg';
+import a07 from '../images/a07.jpg';
+import a08 from '../images/a08.jpg';
+import a09 from '../images/a09.jpg';
+import a10 from '../images/a10.jpg';
+import a11 from '../images/a11.jpg';
+
 export default(props)=>{
+    const images7alt=[
+        {url:"static/media/a01.4b5b4faacd5c05114f98.jpg"},
+        {url:"static/media/a02.2edce7c35b99fef82488.jpg"},
+        {url:"static/media/a03.d885dc688ac952445f73.jpg"},
+        {url:"static/media/a04.9b2457954e3fac048699.jpg"},
+        {url:"static/media/a05.11f49e416ffe870365f3.jpg"},
+        {url:"static/media/a06.3176fafe20bbdc2e07a5.jpg"},
+        {url:"static/media/a07.36c7404e23cedc4cf7c8.jpg"},
+        {url:"static/media/a08.3e1dbfae1e04d8ca4564.jpg"},
+        {url:"static/media/a09.da0ed1a0f0a26df334a5.jpg"},
+        {url:"static/media/a10.0489ce3303124daaebab.jpg"},
+        {url:"static/media/a11.a24dd53c51856dfb206d.jpg"},
+    ]
     const images8=[
         {url:"static/media/project_game_video_2024a_01.f615e722d62625d34ceb.jpg"},
        {url:"static/media/project_game_video_2024a_02.7752aa216638b329d506.jpg"},
@@ -236,14 +261,197 @@ export default(props)=>{
 
     return(
         <>
-        {/* <div style={{backgroundImage: `url(${project5a})`}}> */}
+        {/*<div style={{backgroundImage: `url(${a11})`}}>*/}
         
             
             <div style={{backgroundColor: "rgb(223, 243, 255)", border: "yellow none 2px", marginLeft:"auto", marginRight:"auto", width: "100%"}}>
                 <div style={{minWidth:"500px", textAlign: "center",maxWidth: "70%", height: "auto" , display:"block", marginLeft: "auto", marginRight: "auto", backgroundColor: "white", paddingTop: "3px", paddingBottom:"10px", border: "red none 2px"}}>
                     
+
+                <div style={{backgroundColor: "rgba(240, 252, 230)", boxShadow:"0 2px 5px 0", marginTop:"20px", padding: "10px 0px 10px 0px"}}>
+                            
+                            <div onClick={()=>handleExpand7()} style={subTitle2}>
+                                <h3>Athlete Database Ver 3 (Java && React JS, 2024)</h3>
+                                <p>Click to expand/collapse</p>
+                            </div>
+
+                            
+                            {
+                                expandWork7?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
+                                <ul style={{display:"inline-block"}}>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c_ui">
+                                        Github (UI)
+                                    </a></li>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c">
+                                        Github (Backend)
+                                    </a></li>
+                                </ul>
+
+                                <div style={{margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>
+                                            Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>
+                                            Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                        </li>
+
+                                        <li>
+                                            Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
+                                        </li>
+
+                                        <li>
+                                            Utilized Docker to create and run Postgres containers to use it as an API database.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
+                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <div style={{border:"1px solid yellow"}}>
+                                        <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                            <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
+                                            
+                                            <SimpleImageSlider
+                                                width="100%"
+                                                height="100%"
+                                                images={images7alt}
+                                                style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                                top:0,
+                                                left:0,
+                                                width: "100%",
+                                                height: "100%"}}
+                                                navStyle={1}
+                                                showNavs={true}
+                                                showBullets={true}
+                                                bgColor="black"
+                                            />
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+
+                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
+                                    <h3 style={subTitle}>Video</h3>
+                                        <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
+
+                                            
+                                            <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                                <ReactPlayer style={playerStyle}
+                                                    url="https://vimeo.com/994666979"
+                                                    controls
+                                                    width="100%"
+                                                    height="100%"
+                                                />
+                                            </div>
+                                        </div>
+                                </div>   
+                            </div>
+                                </>
+                                :<></>
+                            }
+                            
+                        </div>
+
+
+
                 <div style={{backgroundColor: "rgba(235, 255, 253)", boxShadow:"0 2px 5px 0", marginTop:"10px", padding: "10px 0px 10px 0px"}}>
                             
+                            <div style={{backgroundColor: "rgba(240, 252, 230)", boxShadow:"0 2px 5px 0", marginTop:"20px", padding: "10px 0px 10px 0px"}}>
+                            
+                            <div onClick={()=>handleExpand7()} style={subTitle2}>
+                                <h3>Athlete Database Ver 3 (Java && React JS, 2024)</h3>
+                                <p>Click to expand/collapse</p>
+                            </div>
+
+                            
+                            {
+                                expandWork7?
+                                <>
+                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
+                                <ul style={{display:"inline-block"}}>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c_ui">
+                                        Github (UI)
+                                    </a></li>
+                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c">
+                                        Github (Backend)
+                                    </a></li>
+                                </ul>
+
+                                <div style={{margin:"auto", border: "red none 2px"}}>
+                                    <ul style={{margin: "20px", textAlign:"left"}}>
+                                        <li>
+                                            Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
+                                        </li>
+
+                                        <li>
+                                            Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
+                                        </li>
+
+                                        <li>
+                                            Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
+                                        </li>
+
+                                        <li>
+                                            Utilized Docker to create and run Postgres containers to use it as an API database.
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
+                                    <h3 style={subTitle}>Screenshots</h3>
+                                    <div style={{border:"1px solid yellow"}}>
+                                        <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
+                                            <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
+                                            
+                                            <SimpleImageSlider
+                                                width="100%"
+                                                height="100%"
+                                                images={images7}
+                                                style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
+                                                top:0,
+                                                left:0,
+                                                width: "100%",
+                                                height: "100%"}}
+                                                navStyle={1}
+                                                showNavs={true}
+                                                showBullets={true}
+                                                bgColor="black"
+                                            />
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+
+                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
+                                    <h3 style={subTitle}>Video</h3>
+                                        <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
+
+                                            
+                                            <div style={{position:"relative", paddingTop:"56.25%"}}>
+                                                <ReactPlayer style={playerStyle}
+                                                    url="https://vimeo.com/925266680"
+                                                    controls
+                                                    width="100%"
+                                                    height="100%"
+                                                />
+                                            </div>
+                                        </div>
+                                </div>   
+                            </div>
+                                </>
+                                :<></>
+                            }
+                            
+                        </div>
+
+
+
                             <div onClick={()=>handleExpand8()} style={subTitle2}>
                                 <h3>API RPG Game (Java && React JS, 2024)</h3>
                                 <p>Click to expand/collapse</p>
@@ -336,94 +544,7 @@ export default(props)=>{
 
 
                 
-                    <div style={{backgroundColor: "rgba(240, 252, 230)", boxShadow:"0 2px 5px 0", marginTop:"20px", padding: "10px 0px 10px 0px"}}>
-                            
-                            <div onClick={()=>handleExpand7()} style={subTitle2}>
-                                <h3>Athlete Database Ver 2 (Java && React JS, 2024)</h3>
-                                <p>Click to expand/collapse</p>
-                            </div>
-
-                            
-                            {
-                                expandWork7?
-                                <>
-                                    <div style={{marginLeft:"auto", marginRight:"auto", width:"90%", border:"none yellow 2px",textAlign:"center", paddingBottom:"20px"}}>   
-                                <ul style={{display:"inline-block"}}>
-                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c_ui">
-                                        Github (UI)
-                                    </a></li>
-                                    <li style={{textAlign:"left"}}><a href="https://github.com/srmtwenty/artistic2024c">
-                                        Github (Backend)
-                                    </a></li>
-                                </ul>
-
-                                <div style={{margin:"auto", border: "red none 2px"}}>
-                                    <ul style={{margin: "20px", textAlign:"left"}}>
-                                        <li>
-                                            Created backend with Intellij to implement post / edit / delete / search functionality for a seamless and intuitive user experience
-                                        </li>
-
-                                        <li>
-                                            Implemented JWT authentication and MySQL database that ties listing systems with users (hosts), athletes, competitions, nations, and competition musics for a secured and organized data table
-                                        </li>
-
-                                        <li>
-                                            Developed eight different relational entities in MySQL database for users giving power to the user logged in, such as deleting or editing athletes & competitions they created as hosts
-                                        </li>
-
-                                        <li>
-                                            Utilized Docker to create and run Postgres containers to use it as an API database.
-                                        </li>
-                                    </ul>
-                                </div>
-                                
-                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 40px"}}>
-                                    <h3 style={subTitle}>Screenshots</h3>
-                                    <div style={{border:"1px solid yellow"}}>
-                                        <div style={{backgroundColor:"black", padding:"15px", margin:"20px, 0, 20px, 0"}}>
-                                            <div style={{backgroundColor:"black", position:"relative", paddingTop:"62.25%"}}>
-                                            
-                                            <SimpleImageSlider
-                                                width="100%"
-                                                height="100%"
-                                                images={images7}
-                                                style={{border: "black outset 2px", marginTop:"0px", marginBottom:"40px",position:"absolute",
-                                                top:0,
-                                                left:0,
-                                                width: "100%",
-                                                height: "100%"}}
-                                                navStyle={1}
-                                                showNavs={true}
-                                                showBullets={true}
-                                                bgColor="black"
-                                            />
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                
-
-                                <div style={{border:"1px solid none", borderRadius:"5px",padding:"20px 0px 0px 20px"}}>
-                                    <h3 style={subTitle}>Video</h3>
-                                        <div style={{backgroundColor:"black", border:"2px none solid",padding:"5px"}}>
-
-                                            
-                                            <div style={{position:"relative", paddingTop:"56.25%"}}>
-                                                <ReactPlayer style={playerStyle}
-                                                    url="https://vimeo.com/925266680"
-                                                    controls
-                                                    width="100%"
-                                                    height="100%"
-                                                />
-                                            </div>
-                                        </div>
-                                </div>   
-                            </div>
-                                </>
-                                :<></>
-                            }
-                            
-                        </div>
+                    
 
 
 
@@ -773,6 +894,7 @@ export default(props)=>{
                         </div>
 
                 </div>
+           
             </div>
           </>
 
