@@ -127,7 +127,7 @@ const About=()=>{
                     {/*<div style={{textAlign: "leftcenter", display: "block", maxHeight: "35%", border: "black solid 1px", width: "100%", height: "auto"}}>*/}
                         <div className="titleBackground">
                             
-                            <img src={HomepageTitle} style={{display:"block", minWidth:"200px",maxWidth:"500px", margin:"auto", border:"solid black 1px"}}/>
+                            <img src={HomepageTitle} style={{display:"block", minWidth:"200px",maxWidth:"400px", margin:"auto", border:"solid black 1px"}}/>
                                 
                         </div>
                     {/*</div>*/}
